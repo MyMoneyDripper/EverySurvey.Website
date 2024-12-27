@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: "Inter", system-ui, -apple-system, sans-serif;
+	}
+
+	body {
+		@apply antialiased text-gray-900 bg-gray-50;
+	}
+}
+
+@layer components {
+	.btn {
+		@apply px-4 py-2 rounded-lg font-medium transition-colors;
+	}
+
+	.btn-primary {
+		@apply bg-blue-600 text-white hover:bg-blue-700;
+	}
+
+	.btn-secondary {
+		@apply bg-gray-100 text-gray-900 hover:bg-gray-200;
+	}
+
+	.card {
+		@apply bg-white rounded-xl shadow-sm p-6 transition-all duration-300;
+	}
+
+	.card-hover {
+		@apply hover:shadow-lg hover:translate-y-[-2px] hover:bg-gray-50;
+	}
+
+	.card-grid {
+		@apply grid gap-6;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	.card-highlight {
+		@apply relative overflow-hidden;
+	}
+
+	.card-highlight::before {
+		content: "";
+		@apply absolute inset-0 bg-gradient-to-r from-blue-100/20 to-purple-100/20 opacity-0 transition-opacity duration-300;
+	}
+
+	.card-highlight:hover::before {
+		@apply opacity-100;
+	}
+
+	.card-glow {
+		@apply relative;
+		box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+	}
+
+	.card-glow:hover {
+		box-shadow: 0 0 25px rgba(59, 130, 246, 0.2);
+	}
+}
+
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Focus styles */
+:focus-visible {
+	@apply outline-none ring-2 ring-blue-500 ring-offset-2;
+}
+
+/* Transitions */
+.custom-transition {
+	transition-property: all;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
