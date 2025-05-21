@@ -1,27 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>EverySurvey</title>
-		<!-- Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-LVBGWXPBRK"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-			gtag("config", "G-LVBGWXPBRK");
-		</script>
-		<script type="module" crossorigin src="/assets/index-BvgS4sY9.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-CaXuFg9J.css">
-	</head>
-	<body>
-		<div id="root"></div>
-	</body>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Every Survey Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              blue: '#4f46e5',
+              green: '#10b981',
+              orange: '#f59e0b'
+            }
+          }
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVBGWXPBRK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LVBGWXPBRK');
+  </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+  <div class="container mx-auto px-4 py-8">
+    <!-- Header with logo and theme toggle -->
+    <header class="mb-8">
+      <div class="flex flex-col items-center">
+        <div class="flex justify-end w-full items-center space-x-2">
+          <a href="https://x.com/everysurvey" target="_blank" rel="noopener" aria-label="X (Twitter)" class="text-gray-400 hover:text-blue-400 transition-colors mr-2">
+            <i class="fab fa-x-twitter text-2xl"></i>
+          </a>
+          <button id="aboutUs" class="bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-bold py-2 px-4 rounded mr-2">
+            About Us
+          </button>
+          <button id="themeToggle" class="theme-toggle p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none">
+            <i class="fas fa-sun text-yellow-500 dark:hidden text-xl"></i>
+            <i class="fas fa-moon text-blue-300 hidden dark:inline text-xl"></i>
+          </button>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+          <h1 class="text-3xl font-bold text-center">Every Survey Website</h1>
+          <p class="text-sm text-gray-500 dark:text-gray-400 text-center">No Ads, No Affiliates, No Fluff</p>
+        </div>
+      </div>
+    </header>
+    <!-- Search box -->
+    <div class="relative mb-8 max-w-xl mx-auto">
+      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+        <i class="fas fa-search text-gray-400"></i>
+      </div>
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Search for a survey website..."
+        class="search-input w-full pl-10 pr-4 py-4 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-700 rounded-xl shadow-sm focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors"
+      />
+    </div>
+    <!-- Card container -->
+    <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Cards will be rendered here by JavaScript -->
+      <div class="col-span-full flex flex-col items-center justify-center py-12">
+        <div class="text-gray-500 dark:text-gray-400 text-center">
+          <i class="fas fa-spinner fa-spin text-4xl mb-3"></i>
+          <p>Loading survey websites...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us Modal -->
+  <div id="aboutUsModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden">
+    <div class="bg-gray-800 text-gray-100 rounded-xl shadow-xl w-full max-w-2xl mx-4 p-6 relative">
+      <button id="closeAboutUs" class="absolute top-4 right-4 text-2xl text-gray-400 hover:text-gray-200 focus:outline-none">&times;</button>
+      <h2 class="text-3xl font-bold mb-6">About Our Website</h2>
+      <div class="flex items-center mb-6">
+        <a href="https://x.com/everysurvey" target="_blank" rel="noopener" class="flex items-center space-x-2 text-gray-400 hover:text-blue-400 transition-colors">
+          <i class="fab fa-twitter text-2xl"></i>
+          <span class="text-lg font-medium">Follow us on X</span>
+        </a>
+      </div>
+      <div class="mb-4 bg-gray-700 rounded-lg">
+        <div class="flex justify-between items-center px-4 py-2 border-b border-gray-600">
+          <span class="font-semibold text-lg">Our Mission</span>
+          <button class="close-section text-gray-400 hover:text-gray-200 text-xl focus:outline-none" onclick="this.parentElement.parentElement.classList.add('hidden')">&times;</button>
+        </div>
+        <div class="px-4 py-3">
+          At EverySurve.Website, our mission is to help users find trustworthy and rewarding survey opportunities online. We aim to provide a comprehensive and transparent platform where individuals can explore top-rated survey websites based on real user feedback. By delivering valuable information, we empower our visitors to make informed decisions and maximize their survey-taking experience.
+        </div>
+      </div>
+      <div class="mb-4 bg-gray-700 rounded-lg">
+        <div class="flex justify-between items-center px-4 py-2 border-b border-gray-600">
+          <span class="font-semibold text-lg">Ranking Method</span>
+          <button class="close-section text-gray-400 hover:text-gray-200 text-xl focus:outline-none" onclick="this.parentElement.parentElement.classList.add('hidden')">&times;</button>
+        </div>
+        <div class="px-4 py-3">
+          Our ranking system uses a sophisticated algorithm that evaluates survey websites based on a variety of public feedback sources, including TrustPilot reviews, App Store ratings, and Play Store reviews. We ensure that the rankings reflect not only the overall user experience but also the reliability and credibility of each platform. This method allows us to present an up-to-date and unbiased view of the best survey sites available to help you choose with confidence.
+        </div>
+      </div>
+      <div class="bg-gray-700 rounded-lg">
+        <div class="flex justify-between items-center px-4 py-2 border-b border-gray-600">
+          <span class="font-semibold text-lg">Why Trust Us</span>
+          <button class="close-section text-gray-400 hover:text-gray-200 text-xl focus:outline-none" onclick="this.parentElement.parentElement.classList.add('hidden')">&times;</button>
+        </div>
+        <div class="px-4 py-3">
+          At EverySurve.Website, we pride ourselves on providing clear, unbiased information without any distractions. Our site is free from ads, affiliate links, and unnecessary fluff, ensuring that you get straight to the facts. We focus solely on presenting reliable survey website rankings based on real user reviews, so you can trust that the recommendations are genuine and impartial. Your experience is our top priority, and we are committed to delivering only the most relevant, accurate insights.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
 </html>
