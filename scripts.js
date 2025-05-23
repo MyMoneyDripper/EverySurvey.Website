@@ -110,97 +110,71 @@ function renderCards() {
   
   // Clear the container including the loading state
   cardContainer.innerHTML = '';
+  
+  const mainCardContainerElement = cardContainer; // Alias for clarity in the loop
 
   const filteredData = surveyData.filter(item => 
     item['Website Name'].toLowerCase().includes(searchTerm)
   );
-  console.log(filteredData);
-  for(let i = 0; i < filteredData.length; i++){ 
-    let count = 0;
-    let sum = 0;
-  
-    const trustpilot = parseFloat(filteredData[i]["Trustpilot Ratings"]);
-    if (!isNaN(trustpilot)) {
-      sum += trustpilot;
-      count += 1;
-    }
-  
-    const appStore = parseFloat(filteredData[i]["App Store Ratings"]);
-    if (!isNaN(appStore)) {
-      sum += appStore;
-      count += 1;
-    }
-  
-    const googlePlay = parseFloat(filteredData[i]["Google Play Ratings"]);
-    if (!isNaN(googlePlay)) {
-      sum += googlePlay;
-      count += 1;
-    }
-  
-    filteredData[i]["priorityNumber"] = count > 0 ? (sum / count) : 0;
-  }
-  
 
-  // Sort based on priorityNumber in descending order
-  // First, sort by explicit priority if available
-  filteredData.sort((a, b) => {
-    if (a.Priority && b.Priority) {
-      return a.Priority - b.Priority; // Sort by priority if both have it
-    } else if (a.Priority) {
-      return -1; // a has priority, so it comes first
-    } else if (b.Priority) {
-      return 1; // b has priority, so it comes first
-    } else {
-      return b.priorityNumber - a.priorityNumber; // Otherwise, sort by priorityNumber
-    }
-  });
-
-  // Show no results message if no data matches
   if (filteredData.length === 0) {
-    const noResults = document.createElement('div');
-    noResults.className = 'col-span-full flex flex-col items-center justify-center py-12';
-    noResults.innerHTML = `
-      <div class="text-gray-500 dark:text-gray-400 text-center">
-        <i class="fas fa-search text-4xl mb-3 text-gray-400 dark:text-gray-600"></i>
-        <p>No survey websites found matching "${searchTerm}"</p>
+    let message = "No survey websites found.";
+    if (searchTerm) {
+      message = `No survey websites found matching your search for "${searchTerm}".`;
+    } else if (surveyData.length === 0 && !searchTerm) {
+      message = "Survey data is currently unavailable. Please check back later or try refining your search if applicable.";
+    }
+    mainCardContainerElement.innerHTML = `
+      <div class="col-span-full flex flex-col items-center justify-center py-12">
+        <div class="text-gray-500 dark:text-gray-400 text-center px-4">
+          <i class="fas fa-info-circle text-4xl mb-3"></i>
+          <p>${message}</p>
+        </div>
       </div>
     `;
-    cardContainer.appendChild(noResults);
-    return;
+    return; 
   }
 
+  // Calculate priority for sorting
   filteredData.forEach(item => {
-    // Create card container with flip functionality
-    const cardContainer = document.createElement('div');
-    cardContainer.className = 'card-container';
-    
-    // Create the card with front and back sides
+    let count = 0;
+    let sum = 0;
+    const trustpilot = parseFloat(item["Trustpilot Ratings"]);
+    if (!isNaN(trustpilot)) { sum += trustpilot; count += 1; }
+    const appStore = parseFloat(item["App Store Ratings"]);
+    if (!isNaN(appStore)) { sum += appStore; count += 1; }
+    const googlePlay = parseFloat(item["Google Play Ratings"]);
+    if (!isNaN(googlePlay)) { sum += googlePlay; count += 1; }
+    item["priorityNumber"] = count > 0 ? (sum / count) : 0;
+  });
+
+  // Sort based on priorityNumber and explicit Priority
+  filteredData.sort((a, b) => {
+    if (a.Priority && b.Priority) return a.Priority - b.Priority;
+    if (a.Priority) return -1;
+    if (b.Priority) return 1;
+    return b.priorityNumber - a.priorityNumber;
+  });
+
+  filteredData.forEach(item => {
     const card = document.createElement('div');
-    card.className = 'card relative';
-    
+    card.className = 'card card-container w-full bg-white dark:bg-gray-800 shadow-lg rounded-xl overflow-hidden';
+    // REMOVE DIAGNOSTIC STYLES ON THE CARD ITSELF
+    // card.style.border = "2px solid red"; 
+    // card.style.minHeight = "50px";
+
     const cardFront = document.createElement('div');
     cardFront.className = 'card-front bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 border border-gray-200 dark:border-slate-700 hover:shadow-xl';
     
-    const cardBack = document.createElement('div');
-    cardBack.className = 'card-back bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 border border-gray-200 dark:border-slate-700 hover:shadow-xl';
-    
-    // Get ratings, handle "Not listed" cases
-    const trustpilot = item['Trustpilot Ratings'] !== 'Not listed' ? item['Trustpilot Ratings'] : '-';
-    const appStore = item['App Store Ratings'] !== 'Not listed' ? item['App Store Ratings'] : '-';
-    const googlePlay = item['Google Play Ratings'] !== 'Not listed' ? item['Google Play Ratings'] : '-';
-
-    // Calculate average pay for display
+    // RESTORING ORIGINAL COMPLEX HTML for cardFront
     const minPay = item['Average Pay Per Survey']?.['Min'] || 'Varies';
     const maxPay = item['Average Pay Per Survey']?.['Max'] || 'Varies';
-    
-    // Min payout value
     const minPayout = item['Minimum Payout']?.['PayPal'] || 
                       item['Minimum Payout']?.['Gift Cards'] || 
                       item['Minimum Payout']?.['Bank Transfer'] || 
                       item['Minimum Payout']?.['Other'] || 
                       'Varies';
 
-    // Populate front of card with the new design
     cardFront.innerHTML = `
       <!-- Top section with name and ratings -->
       <div class="site-header bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-900 border-b border-gray-200 dark:border-slate-700 rounded-t-lg p-3 mb-3">
@@ -209,15 +183,15 @@ function renderCards() {
           <div class="ratings flex space-x-4">
             <div class="flex items-center" title="Trustpilot rating">
               <i class="fas fa-star text-green-500 mr-1"></i>
-              <span class="font-semibold text-gray-800 dark:text-white">${trustpilot}</span>
+              <span class="font-semibold text-gray-800 dark:text-white">${item['Trustpilot Ratings'] !== 'Not listed' ? item['Trustpilot Ratings'] : '-'}</span>
             </div>
             <div class="flex items-center" title="App Store rating">
               <i class="fab fa-apple text-gray-800 dark:text-white mr-1"></i>
-              <span class="font-semibold text-gray-800 dark:text-white">${appStore}</span>
+              <span class="font-semibold text-gray-800 dark:text-white">${item['App Store Ratings'] !== 'Not listed' ? item['App Store Ratings'] : '-'}</span>
             </div>
             <div class="flex items-center" title="Google Play rating">
               <i class="fab fa-google-play text-blue-500 mr-1"></i>
-              <span class="font-semibold text-gray-800 dark:text-white">${googlePlay}</span>
+              <span class="font-semibold text-gray-800 dark:text-white">${item['Google Play Ratings'] !== 'Not listed' ? item['Google Play Ratings'] : '-'}</span>
             </div>
           </div>
         </div>
@@ -259,7 +233,10 @@ function renderCards() {
       </div>
     `;
     
-    // Populate back of card
+    const cardBack = document.createElement('div');
+    cardBack.className = 'card-back bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 border border-gray-200 dark:border-slate-700 hover:shadow-xl';
+    
+    // RESTORING ORIGINAL COMPLEX HTML for cardBack
     cardBack.innerHTML = `
       <div class="p-4">
         <div class="flex justify-between items-center mb-4">
@@ -344,29 +321,34 @@ function renderCards() {
       </div>
     `;
 
-    // Add card elements to DOM
     card.appendChild(cardFront);
     card.appendChild(cardBack);
-    cardContainer.appendChild(card);
-    
-    // Add event listeners for details button
-    cardContainer.querySelector('.details-btn').addEventListener('click', () => {
-      cardFront.classList.add('flipped');
-      cardBack.classList.add('flipped');
-      cardContainer.classList.add('flipped');
-    });
-    
-    // Add event listener for back button
-    if (cardContainer.querySelector('.back-btn')) {
-      cardContainer.querySelector('.back-btn').addEventListener('click', () => {
-        cardFront.classList.remove('flipped');
-        cardBack.classList.remove('flipped');
-        cardContainer.classList.remove('flipped');
+
+    const detailsButton = card.querySelector('.details-btn');
+    if (detailsButton) {
+      detailsButton.addEventListener('click', () => {
+        cardFront.classList.add('flipped');
+        cardBack.classList.add('flipped');
+        card.classList.add('flipped');
+        if (window.innerWidth < 640) {
+          setTimeout(() => { card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 100);
+        }
       });
     }
     
-    // For Sign Up button, create a redirect
-    const signupBtn = cardContainer.querySelector('.signup-btn');
+    const backButton = card.querySelector('.back-btn');
+    if (backButton) {
+      backButton.addEventListener('click', () => {
+        cardFront.classList.remove('flipped');
+        cardBack.classList.remove('flipped');
+        card.classList.remove('flipped');
+        if (window.innerWidth < 640) {
+          setTimeout(() => { card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 100);
+        }
+      });
+    }
+    
+    const signupBtn = card.querySelector('.signup-btn');
     if (signupBtn) {
       signupBtn.addEventListener('click', (e) => {
         e.preventDefault();
@@ -376,8 +358,7 @@ function renderCards() {
       });
     }
     
-    // Add the card container to the main container
-    document.getElementById('cardContainer').appendChild(cardContainer);
+    mainCardContainerElement.appendChild(card);
   });
 }
 
