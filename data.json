@@ -8,9 +8,16 @@
     "Registration Requirements": {
       "Age": 14,
       "Region": "Worldwide",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Hyperwallet", "Sweepstakes", "Donations"],
+    "Payment Methods": [
+      "PayPal",
+      "Hyperwallet",
+      "Sweepstakes",
+      "Donations"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -23,11 +30,14 @@
       "Earnings": "Earn $0.50 for each succesful referral"
     },
     "Special Features": {
-      "Platform": ["Web"],
+      "Platform": [
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research surveys, product testing, online focus groups, and diary studies.",
-    "Review": "1"
+    "Review": "1",
+    "Countries": []
   },
   {
     "Website Name": "appKarma",
@@ -38,9 +48,14 @@
     "Registration Requirements": {
       "Age": 13,
       "Region": "Widely Accessible",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$3"
     },
@@ -53,11 +68,16 @@
       "Earnings": "Earn 30% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["Android"],
-      "Others": ["Achievement Badges, Reward Levels"]
+      "Platform": [
+        "Android"
+      ],
+      "Others": [
+        "Achievement Badges, Reward Levels"
+      ]
     },
     "Additional Notes": "Earn by playing mobile games, completing offers, and answering surveys",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "AttaPoll",
@@ -68,9 +88,14 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Worldwide",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$3"
     },
@@ -83,11 +108,15 @@
       "Earnings": "Earn 10% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Banana Bucks",
@@ -98,9 +127,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -113,11 +147,17 @@
       "Earnings": "Earn 10% of your referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
-      "Others": ["Bonus & Special offers for consistent participation"]
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Bonus & Special offers for consistent participation"
+      ]
     },
     "Additional Notes": "Focuses on general consumer feedback, lifestyle surveys, and market research.",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "BrandBee",
@@ -129,9 +169,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "US/UK/CA/AU",
-      "Verification": ["Email Verification", "Active Sim"]
+      "Verification": [
+        "Email Verification",
+        "Active Sim"
+      ]
     },
-    "Payment Methods": ["Gift Cards"],
+    "Payment Methods": [
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$3"
     },
@@ -144,11 +189,15 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
       "Others": []
     },
     "Additional Notes": "Sharing device usage data, shopping online, market research and day-to-day life",
-    "Review": "https://vocal.media/01/brand-bee-review-how-much-can-you-make"
+    "Review": "https://vocal.media/01/brand-bee-review-how-much-can-you-make",
+    "Countries": []
   },
   {
     "Website Name": "Branded Surveys",
@@ -159,9 +208,15 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "US/UK/CA",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Bank Transfer", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Bank Transfer",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -174,11 +229,22 @@
       "Earnings": "Earn $0.50 to $1 to every referral reaching milestones"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Streak Rewards, Daily Polls"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Streak Rewards, Daily Polls"
+      ]
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada"
+    ]
   },
   {
     "Website Name": "Bzzagent",
@@ -189,9 +255,13 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "US/UK/CA",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["Product"],
+    "Payment Methods": [
+      "Product"
+    ],
     "Minimum Payout": {
       "Other": "N/A"
     },
@@ -204,11 +274,24 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["Web"],
+      "Platform": [
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research and product testing, the product is your reward",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "France",
+      "Germany",
+      "Spain",
+      "Italy",
+      "Brazil",
+      "India"
+    ]
   },
   {
     "Website Name": "CashKarma",
@@ -219,9 +302,16 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Widely Accessible",
-      "Verification": ["Email Address", "App Installation"]
+      "Verification": [
+        "Email Address",
+        "App Installation"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards", "Crypto"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Crypto"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -234,11 +324,17 @@
       "Earnings": "Earn 10% of your referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
-      "Others": ["Level & Survey Screenout Reward, Achievement Badges"]
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Level & Survey Screenout Reward, Achievement Badges"
+      ]
     },
     "Additional Notes": "Earn by completing surveys and checking in daily; users can unlock higher reward tiers.",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Crowdtap",
@@ -249,9 +345,13 @@
     "Registration Requirements": {
       "Age": 13,
       "Region": "US",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["Gift Cards"],
+    "Payment Methods": [
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -264,11 +364,18 @@
       "Earnings": "Earn $0.50 when they sign up, plus another $0.50 when they reach a milestone"
     },
     "Special Features": {
-      "Platform": ["Web"],
-      "Others": ["Daily Rewards, Daily Polls"]
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Daily Rewards, Daily Polls"
+      ]
     },
     "Additional Notes": "Focuses on market research, and product-testing",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
   },
   {
     "Website Name": "Drumo",
@@ -279,9 +386,17 @@
     "Registration Requirements": {
       "Age": 12,
       "Region": "US",
-      "Verification": ["Email", "Phone Verification"]
+      "Verification": [
+        "Email",
+        "Phone Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards", "Venmo", "Prepaid Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Venmo",
+      "Prepaid Cards"
+    ],
     "Minimum Payout": {
       "Other": "$0.50"
     },
@@ -294,11 +409,18 @@
       "Earnings": "Earn 10% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Daily Polls, Goals & Streaks"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Daily Polls, Goals & Streaks"
+      ]
     },
     "Additional Notes": "Offerwalls, Cashbacks, Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Earnably",
@@ -309,9 +431,15 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Worldwide",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards", "Crypto"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Crypto"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -324,11 +452,14 @@
       "Earnings": "Earn 10% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["Web"],
+      "Platform": [
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Earn by completing surveys, watching videos, and downloading apps.",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Ebuno",
@@ -339,9 +470,16 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Payza", "Swish", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Payza",
+      "Swish",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -354,11 +492,16 @@
       "Earnings": "Earn 10% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Offers cashbacks, Points-based system with tiered membership benefits.",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "eRewards",
@@ -369,9 +512,13 @@
     "Registration Requirements": {
       "Age": 13,
       "Region": "US",
-      "Verification": ["Invitation-only"]
+      "Verification": [
+        "Invitation-only"
+      ]
     },
-    "Payment Methods": ["Gift Cards"],
+    "Payment Methods": [
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -384,11 +531,23 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research and data collection for various industries",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "France",
+      "Germany",
+      "Spain"
+    ]
   },
   {
     "Website Name": "Eureka",
@@ -399,9 +558,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "US/UK/CA/AU",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -414,11 +578,19 @@
       "Earnings": "Earn $1 per successful referral"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
-      "Others": ["Daily Polls, Leaderboard Rankings"]
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Daily Polls, Leaderboard Rankings"
+      ]
     },
     "Additional Notes": "Focuses primarily on consumer behavior, lifestyle, and general market research surveys.",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
   },
   {
     "Website Name": "FeaturePoints",
@@ -429,9 +601,15 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Widely Accessible",
-      "Verification": ["Email Address", "App Installation"]
+      "Verification": [
+        "Email Address",
+        "App Installation"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$3"
     },
@@ -444,11 +622,15 @@
       "Earnings": "Earn 10% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
       "Others": []
     },
     "Additional Notes": "Games, and app trials; users earn cashback for shopping through the app.",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Five Surveys",
@@ -459,9 +641,15 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "America/Europe",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Visa Prepaid Cards", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Visa Prepaid Cards",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -474,11 +662,16 @@
       "Earnings": "Earn 10% when your referral makes a withdrawal"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Focus Group",
@@ -489,9 +682,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "US",
-      "Verification": ["Email Verification", "ID verification"]
+      "Verification": [
+        "Email Verification",
+        "ID verification"
+      ]
     },
-    "Payment Methods": ["Gift Cards"],
+    "Payment Methods": [
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -504,11 +702,18 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research and product testing, 1 on 1 discussions",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
   },
   {
     "Website Name": "Freecash",
@@ -519,9 +724,18 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Worldwide",
-      "Verification": ["Email Add/Social Account; ID verification "]
+      "Verification": [
+        "Email Add/Social Account; ID verification "
+      ]
     },
-    "Payment Methods": ["PayPal", "Crypto", "Bank Transfer", "Visa Prepaid Cards", "Gift Cards", "+"],
+    "Payment Methods": [
+      "PayPal",
+      "Crypto",
+      "Bank Transfer",
+      "Visa Prepaid Cards",
+      "Gift Cards",
+      "+"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -534,11 +748,18 @@
       "Earnings": "Earn 5% to 20% of your referrals' earnings, New users receive a welcome gift (up to $250)"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Streak Rewards, Daily Bonus Ladder"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Streak Rewards, Daily Bonus Ladder"
+      ]
     },
     "Additional Notes": "Game offers, Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "FusionCash",
@@ -549,9 +770,16 @@
     "Registration Requirements": {
       "Age": 13,
       "Region": "US/CA",
-      "Verification": ["Email Address", "Phone Verification"]
+      "Verification": [
+        "Email Address",
+        "Phone Verification"
+      ]
     },
-    "Payment Methods": ["Paypal", "Checks", "Direct Deposit"],
+    "Payment Methods": [
+      "Paypal",
+      "Checks",
+      "Direct Deposit"
+    ],
     "Minimum Payout": {
       "Other": "$25"
     },
@@ -564,11 +792,18 @@
       "Earnings": "Does not offer but has a $5 sign-up bonus"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Cashback on purchases, Focuses on market research",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
   },
   {
     "Website Name": "Gift Hunter Club",
@@ -579,9 +814,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$1"
     },
@@ -594,11 +834,42 @@
       "Earnings": "Earn 10% of referrals' earnings, Top 10 referrers each month receive additional rewards"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Earn by watching videos, completing tasks, and answering surveys.",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Spain",
+      "France",
+      "Germany",
+      "Italy",
+      "Portugal",
+      "Argentina",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Mexico",
+      "Peru",
+      "Venezuela",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "India",
+      "South Africa",
+      "Philippines",
+      "Indonesia",
+      "Malaysia",
+      "Singapore",
+      "Thailand",
+      "Vietnam"
+    ]
   },
   {
     "Website Name": "Google Opinion Rewards",
@@ -610,9 +881,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
-      "Verification": ["Google Account"]
+      "Verification": [
+        "Google Account"
+      ]
     },
-    "Payment Methods": ["PayPal", "Google Play Credits"],
+    "Payment Methods": [
+      "PayPal",
+      "Google Play Credits"
+    ],
     "Minimum Payout": {
       "Other": "$2"
     },
@@ -625,11 +901,43 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Opinion Polls"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Opinion Polls"
+      ]
     },
     "Additional Notes": "Focuses on user behavior and preferences",
-    "Review": "https://vocal.media/01/google-opinion-rewards-review-earn-credits-by-answering-short-surveys"
+    "Review": "https://vocal.media/01/google-opinion-rewards-review-earn-credits-by-answering-short-surveys",
+    "Countries": [
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Japan",
+      "New Zealand",
+      "Ireland",
+      "Sweden",
+      "Switzerland",
+      "Norway",
+      "Finland",
+      "Poland",
+      "Austria",
+      "Denmark",
+      "South Africa",
+      "Singapore",
+      "Israel",
+      "Turkey",
+      "Thailand",
+      "Romania",
+      "Indonesia"
+    ]
   },
   {
     "Website Name": "GrabPoints",
@@ -640,9 +948,14 @@
     "Registration Requirements": {
       "Age": 13,
       "Region": "Worldwide",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$3"
     },
@@ -655,11 +968,18 @@
       "Earnings": "Earn up to 10% when your referral makes a withdrawal"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Streak Rewards"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Streak Rewards"
+      ]
     },
     "Additional Notes": "Offerwalls, Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Happy Surveys",
@@ -670,9 +990,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "Worldwide",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -685,11 +1010,17 @@
       "Earnings": "Earn $0.2 for every refferal that completes 2 surveys"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android"],
-      "Others": ["Bonus for consistent participation, Daily Rewards"]
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Bonus for consistent participation, Daily Rewards"
+      ]
     },
     "Additional Notes": "Offerwalls, Focuses on general consumer feedback, lifestyle, and market research.",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "Harris Poll Online",
@@ -700,9 +1031,14 @@
     "Registration Requirements": {
       "Age": 13,
       "Region": "US/CA",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["Gift Cards", "Sweepstake Entries"],
+    "Payment Methods": [
+      "Gift Cards",
+      "Sweepstake Entries"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -715,11 +1051,20 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["Web"],
-      "Others": ["Loyalty Reward System"]
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Loyalty Reward System"
+      ]
     },
     "Additional Notes": "Surveys focused on political, societal, and consumer opinions.",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ]
   },
   {
     "Website Name": "HeyCash",
@@ -730,9 +1075,15 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Widely Accessible",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Bank Transfer", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Bank Transfer",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -745,11 +1096,18 @@
       "Earnings": "Earn 10% of your referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Level-Up Rewards"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Level-Up Rewards"
+      ]
     },
     "Additional Notes": "Game offers, Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "HeyPiggy",
@@ -760,9 +1118,15 @@
     "Registration Requirements": {
       "Age": 14,
       "Region": "Worldwide",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Visa Prepaid Cards", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Visa Prepaid Cards",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$1"
     },
@@ -775,11 +1139,16 @@
       "Earnings": "Earn 10% when your referral makes a withdrawal"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
   {
     "Website Name": "InboxDollars",
@@ -790,9 +1159,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "US",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$15"
     },
@@ -805,11 +1179,18 @@
       "Earnings": "Earn 30% of referrals' earnings, and $1 per referral"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Offers surveys, games, and cashback; includes sign-up bonuses and streak incentives.",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
   },
   {
     "Website Name": "InboxPays",
@@ -820,9 +1201,13 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "US",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["Paypal"],
+    "Payment Methods": [
+      "Paypal"
+    ],
     "Minimum Payout": {
       "Other": "$1"
     },
@@ -835,11 +1220,18 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Earn by surveys, paid offers, reading emails, and participating in contests",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
   },
   {
     "Website Name": "InboxPounds",
@@ -850,9 +1242,13 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "UK",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["Paypal"],
+    "Payment Methods": [
+      "Paypal"
+    ],
     "Minimum Payout": {
       "Other": "$20"
     },
@@ -865,11 +1261,18 @@
       "Earnings": "Earn 10% of your referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Additional earning options such as reading paid emails, playing games, cashback shopping",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "United Kingdom"
+    ]
   },
   {
     "Website Name": "Ipsos i-Say",
@@ -880,9 +1283,14 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Widely Accessible",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -895,11 +1303,63 @@
       "Earnings": "Earn $1 per active referral"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Loyalty Rewards Program"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Loyalty Rewards Program"
+      ]
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Colombia",
+      "Czech Republic",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Singapore",
+      "Slovakia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Thailand",
+      "Turkey",
+      "United Kingdom",
+      "United States",
+      "Vietnam"
+    ]
   },
   {
     "Website Name": "LifePoints",
@@ -910,9 +1370,14 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Worldwide",
-      "Verification": ["Email Address"]
+      "Verification": [
+        "Email Address"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$10"
     },
@@ -925,11 +1390,65 @@
       "Earnings": "Earn up to 20% of referrals' points"
     },
     "Special Features": {
-      "Platform": ["iOS", "Android", "Web"],
-      "Others": ["Streak Bonuses"]
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Streak Bonuses"
+      ]
     },
     "Additional Notes": "Offers surveys across various categories, including consumer opinions and travel.",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "China",
+      "Colombia",
+      "Czech Republic",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Singapore",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "Thailand",
+      "Turkey",
+      "United Kingdom",
+      "United States",
+      "Vietnam"
+    ]
   },
   {
     "Website Name": "LootUp",
@@ -940,9 +1459,14 @@
     "Registration Requirements": {
       "Age": 16,
       "Region": "Widely Accessible",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$5"
     },
@@ -955,11 +1479,85 @@
       "Earnings": "Earn 10% of referrals' earnings"
     },
     "Special Features": {
-      "Platform": ["Android", "Web"],
+      "Platform": [
+        "Android",
+        "Web"
+      ],
       "Others": []
     },
     "Additional Notes": "Offers surveys, videos, and pay-to-click ads",
-    "Review": ""
+    "Review": "",
+    "Countries": [
+      "South Africa",
+      "Nigeria",
+      "Kenya",
+      "Morocco",
+      "Egypt",
+      "Ghana",
+      "Tanzania",
+      "Uganda",
+      "India",
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Singapore",
+      "Thailand",
+      "Vietnam",
+      "Hong Kong",
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "Israel",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Kuwait",
+      "Lebanon",
+      "Jordan",
+      "Qatar",
+      "Oman",
+      "Bahrain",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Austria",
+      "Switzerland",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Ireland",
+      "Poland",
+      "Portugal",
+      "Greece",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Slovakia",
+      "Bulgaria",
+      "Croatia",
+      "Lithuania",
+      "Latvia",
+      "Estonia",
+      "Luxembourg",
+      "Malta",
+      "Cyprus",
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Colombia",
+      "Chile",
+      "Peru",
+      "Ecuador",
+      "Venezuela",
+      "Australia",
+      "New Zealand"
+    ]
   },
   {
     "Website Name": "Lyssna",
@@ -970,9 +1568,14 @@
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
-      "Verification": ["Email Verification"]
+      "Verification": [
+        "Email Verification"
+      ]
     },
-    "Payment Methods": ["PayPal", "Gift Cards"],
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
     "Minimum Payout": {
       "Other": "$15"
     },
@@ -985,2051 +1588,3828 @@
       "Earnings": "Does not offer"
     },
     "Special Features": {
-      "Platform": ["Web"],
-      "Others": ["Polls"]
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Polls"
+      ]
     },
     "Additional Notes": "Focuses on market research and product to user testing",
-    "Review": ""
+    "Review": "",
+    "Countries": []
   },
-    {
-        "Website Name": "Lyssna",
-        "Trustpilot Ratings": "3.2",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.lyssna.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$15"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Varies",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Polls"]
-        },
-        "Additional Notes": "Focuses on market research and product to user testing",
-        "Review": ""
-    },
-    {
-        "Website Name": "Milieu Surveys",
-        "Trustpilot Ratings": "Not listed",
-        "App Store Ratings": "4.6",
-        "Google Play Ratings": "4.5",
-        "Website URL": "https://www.mili.eu/sg/community",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Worldwide",
-            "Verification": ["Email & Phone Verification"]
-        },
-        "Payment Methods": ["Gift Cards", "Mobile Credits", "E-wallets"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 500 bonus points for every successful referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": ["Daily Polls, Leaderboard Rankings, Streak Rewards"]
-        },
-        "Additional Notes": "Focused on societal and consumer insights.",
-        "Review": ""
-    },
-    {
-        "Website Name": "MobileXpression",
-        "Trustpilot Ratings": "2.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "3.7",
-        "Website URL": "https://rewards.mobilexpression.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address", "App Installation"]
-        },
-        "Payment Methods": ["Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Android", "Web"],
-            "Others": ["Sweepstakes"]
-        },
-        "Additional Notes": "Earn rewards for allowing the app to monitor browsing habits.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Mobrog",
-        "Trustpilot Ratings": "4.4",
-        "App Store Ratings": "3.8",
-        "Google Play Ratings": "4.1",
-        "Website URL": "https://www.mobrog.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Skrill"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Surveys focus on market research topics",
-        "Review": ""
-    },
-    {
-        "Website Name": "MyPoints",
-        "Trustpilot Ratings": "4.3",
-        "App Store Ratings": "4.2",
-        "Google Play Ratings": "3.7",
-        "Website URL": "https://www.mypoints.com/login",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$3"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn up to 25% of referrals' points"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": []
-        },
-        "Additional Notes": "Earn points from surveys, shopping, and reading emails",
-        "Review": ""
-    },
-    {
-        "Website Name": "MySoapBox",
-        "Trustpilot Ratings": "1.9",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.mysoapbox.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "US/CA",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$25"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.75",
-            "Max": "$1.50"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 250 points for each friend you refer, referral contests"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Offers surveys, product-testing and focus groups",
-        "Review": ""
-    },
-    {
-        "Website Name": "MyView",
-        "Trustpilot Ratings": "3",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.myview.com/",
-        "Registration Requirements": {
-            "Age": 14,
-            "Region": "US",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$1",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "National Consumer Panel",
-        "Trustpilot Ratings": "Not listed",
-        "App Store Ratings": "4.4",
-        "Google Play Ratings": "4.5",
-        "Website URL": "https://www.ncppanel.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Gift Cards", "Sweepstakes Entries"],
-        "Minimum Payout": {
-            "Other": "No minimum payout"
-        },
-        "Average Pay Per Survey": {
-            "Min": "N/A",
-            "Max": "N/A"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": ["Panel-based Research", "Barcode scanning app"]
-        },
-        "Additional Notes": "Sharing shopping habits; rewards are based on scanning purchases rather than surveys",
-        "Review": ""
-    },
-    {
-        "Website Name": "Nicequest",
-        "Trustpilot Ratings": "3.4",
-        "App Store Ratings": "4.7",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.nicequest.com/us",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "US",
-            "Verification": ["Invitation-only"]
-        },
-        "Payment Methods": ["Gifts", "Vouchers", "Credits", "Sweepstakes Entries"],
-        "Minimum Payout": {
-            "Other": "-"
-        },
-        "Average Pay Per Survey": {
-            "Min": "-",
-            "Max": "-"
-        },
-        "Survey Frequency": "Monthly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "High-quality rewards but no monetary compensation",
-        "Review": ""
-    },
-    {
-        "Website Name": "Nielsen",
-        "Trustpilot Ratings": "4.2",
-        "App Store Ratings": "4",
-        "Google Play Ratings": "3.9",
-        "Website URL": "https://www.nielsen.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US/UK/CA",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": []
-        },
-        "Additional Notes": "Rewards users for sharing browsing habits; includes sweepstakes entries.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Nortstatpanel",
-        "Trustpilot Ratings": "4",
-        "App Store Ratings": "2.5",
-        "Google Play Ratings": "2.3",
-        "Website URL": "https://www.norstatpanel.com/",
-        "Registration Requirements": {
-            "Age": 14,
-            "Region": "UK",
-            "Verification": ["Email Address", "Invitation-only"]
-        },
-        "Payment Methods": ["Gift Cards", "Coupons"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "€0.50",
-            "Max": "€5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Loyaly Program"]
-        },
-        "Additional Notes": "Focuses on the societal influence of participants' opinions",
-        "Review": ""
-    },
-    {
-        "Website Name": "Opinion Bureau",
-        "Trustpilot Ratings": "1.5",
-        "App Store Ratings": "2.3",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.opinionbureau.com/login",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Surveys focused on societal and consumer trends.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Opinion Edge",
-        "Trustpilot Ratings": "2.7",
-        "App Store Ratings": "1.8",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://panel.opinion-edge.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Gift Cards", "Paypal (soon)"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Monthly",
-        "Referral Program": {
-            "Earnings": "Earn $0.20 for each verified referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Compensates Disqualification"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Opinion Outpost",
-        "Trustpilot Ratings": "4.2",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "ww.opinionoutpost.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Offers frequent surveys with low minimum payout thresholds.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Opinion World",
-        "Trustpilot Ratings": "4.2",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.opinionworld.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Quarterly prize draws"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "OpinionPioneer",
-        "Trustpilot Ratings": "2.1",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://opinionpioneer.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 15% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Compensates Disqualification"]
-        },
-        "Additional Notes": "Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "PaidViewPoint",
-        "Trustpilot Ratings": "2.8",
-        "App Store Ratings": "4.8",
-        "Google Play Ratings": "4.2",
-        "Website URL": "https://app.paidviewpoint.com/",
-        "Registration Requirements": {
-            "Age": 15,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$15"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$0.50"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 20% when your referral makes a withdrawal"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["TraitScore System"]
-        },
-        "Additional Notes": "Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "Panda Research",
-        "Trustpilot Ratings": "2.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.pandaresearch.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$50"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$1",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focus on market research, Offers paid email reading",
-        "Review": ""
-    },
-    {
-        "Website Name": "Panel Champ",
-        "Trustpilot Ratings": "1.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.panelchamp.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Tango", "Visa", "Check"],
-        "Minimum Payout": {
-            "Other": "$13"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.25",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Pawns.app",
-        "Trustpilot Ratings": "4.4",
-        "App Store Ratings": "4.4",
-        "Google Play Ratings": "4.6",
-        "Website URL": "https://pawns.app/",
-        "Registration Requirements": {
-            "Age": 14,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Crypto", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% when your referral makes a withdrawal"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Bandwidth Sharing, Game offers, Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "PineCone Research",
-        "Trustpilot Ratings": "1.6",
-        "App Store Ratings": "2.2",
-        "Google Play Ratings": "3",
-        "Website URL": "https://members.pineconeresearch.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US/UK/CA",
-            "Verification": ["Email Address", "SMS/Call Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$3"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$1",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Varies",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Invitation-only"]
-        },
-        "Additional Notes": "Focuses on market research & product testing",
-        "Review": ""
-    },
-    {
-        "Website Name": "PointClub",
-        "Trustpilot Ratings": "1.3",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.pointclub.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1.50"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Daily Bonus"]
-        },
-        "Additional Notes": "Offers higher payouts for survey streaks; surveys focus on various topics.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Points2Shop",
-        "Trustpilot Ratings": "1.4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.points2shop.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$15"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn $1 when referral completes their first survey"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Poll Pay",
-        "Trustpilot Ratings": "4.6",
-        "App Store Ratings": "4.6",
-        "Google Play Ratings": "4.5",
-        "Website URL": "https://www.pollpay.app/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Worldwide",
-            "Verification": ["Email Address or Social accounts"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 15% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Earning Boosts, Sweepstakes"]
-        },
-        "Additional Notes": "Focused on market research, consumer goods, technology trends, and entertainment",
-        "Review": ""
-    },
-    {
-        "Website Name": "Prime Opinion",
-        "Trustpilot Ratings": "4.4",
-        "App Store Ratings": "4.7",
-        "Google Play Ratings": "4.7",
-        "Website URL": "https://www.primeopinion.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Bank Transfer", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.80",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn $1 when your referral makes a withdrawal"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "PrizeRebel",
-        "Trustpilot Ratings": "3.1",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.prizerebel.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Crypto", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 15% to 30% when your referral makes a withdrawal"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Loyalty System, Raffles & Contests"]
-        },
-        "Additional Notes": "Offerwalls, Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "Product Report Card",
-        "Trustpilot Ratings": "4.4",
-        "App Store Ratings": "2.2",
-        "Google Play Ratings": "3.6",
-        "Website URL": "https://www.productreportcard.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "North America",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Tier-based referral bonuses"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Surveys focused on product testing and detailed consumer feedback.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Prolific",
-        "Trustpilot Ratings": "4.6",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://auth.prolific.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "£5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "£0.2",
-            "Max": "£5"
-        },
-        "Survey Frequency": "Varies",
-        "Referral Program": {
-            "Earnings": "Earn $30 when your referral completes a study"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Studies/Interviews"]
-        },
-        "Additional Notes": "Academic Research Focus",
-        "Review": ""
-    },
-    {
-        "Website Name": "Qmee",
-        "Trustpilot Ratings": "4.1",
-        "App Store Ratings": "4.6",
-        "Google Play Ratings": "4.3",
-        "Website URL": "https://www.qmee.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "US/UK/CA/AU/FR/DE",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "No minimum payout"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$1.50"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn $1 when your referral gets their 1st cashout"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Browser Extension"]
-        },
-        "Additional Notes": "Offers cashback and deals when shopping online",
-        "Review": ""
-    },
-    {
-        "Website Name": "QuickThoughts",
-        "Trustpilot Ratings": "1.7",
-        "App Store Ratings": "3.3",
-        "Google Play Ratings": "4.1",
-        "Website URL": "https://www.quickthoughtsapp.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$1",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "RedMonkey",
-        "Trustpilot Ratings": "3.4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://redmonkey.app/earn",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Crypto"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1.50"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 15% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focused on opinion sharing; offers high survey frequency with decent pay",
-        "Review": ""
-    },
-    {
-        "Website Name": "Respondent",
-        "Trustpilot Ratings": "3.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://app.respondent.io/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "No minimum payout"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$5",
-            "Max": "$200"
-        },
-        "Survey Frequency": "Varies",
-        "Referral Program": {
-            "Earnings": "Earn $20 when your referral completes a study"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Studies/Interviews"]
-        },
-        "Additional Notes": "Product tests, Focus groups, and Usability studies",
-        "Review": ""
-    },
-    {
-        "Website Name": "Reward XP",
-        "Trustpilot Ratings": "4.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.rewardxp.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Crypto", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Loyalty & Level System"]
-        },
-        "Additional Notes": "Offerwalls, Videos, Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "Rewards1",
-        "Trustpilot Ratings": "4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.rewards1.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn points for each referral"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Offers, and watching videos",
-        "Review": ""
-    },
-    {
-        "Website Name": "SayMore",
-        "Trustpilot Ratings": "1.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.saymore.io/Account/Join",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$25"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn $1 for every successful referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "",
-        "Review": ""
-    },
-    {
-        "Website Name": "Shopper's Voice",
-        "Trustpilot Ratings": "Not listed",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.shoppersvoice.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US/CA",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Coupons", "Samples"],
-        "Minimum Payout": {
-            "Other": "N/A"
-        },
-        "Average Pay Per Survey": {
-            "Min": "N/A",
-            "Max": "N/A"
-        },
-        "Survey Frequency": "Annual",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on consumer product feedback; participants receive tailored offers.",
-        "Review": ""
-    },
-    {
-        "Website Name": "SpiderMetrix",
-        "Trustpilot Ratings": "2.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.spidermetrix.com/",
-        "Registration Requirements": {
-            "Age": 14,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$50"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 1 point for every referral"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Quickies (Short Surveys)"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Superpay.me",
-        "Trustpilot Ratings": "3.7",
-        "App Store Ratings": "1.7",
-        "Google Play Ratings": "4",
-        "Website URL": "https://superpay.me/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$1"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn up to 20% referral bonus"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Streak Bonuses"]
-        },
-        "Additional Notes": "Offers instant payment options; includes tasks like surveys, videos, and contests.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Surveoo",
-        "Trustpilot Ratings": "3.9",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.surveoo.com/en/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email & Number Verification"]
-        },
-        "Payment Methods": ["PayPal", "Bank Transfer", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$20"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Achievement Rewards"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Survey Club",
-        "Trustpilot Ratings": "3.4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.surveyclub.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$1"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$200"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn $1 per successful referral"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focus groups, clinical trials, in-home usage tests; Aggregates survey opportunities from multiple sources",
-        "Review": ""
-    },
-    {
-        "Website Name": "Survey Junkie",
-        "Trustpilot Ratings": "4",
-        "App Store Ratings": "4.5",
-        "Google Play Ratings": "4.3",
-        "Website URL": "https://www.surveyjunkie.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "US/UK/CA/AU",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn $1.50 for each referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Survey Pop",
-        "Trustpilot Ratings": "1.6",
-        "App Store Ratings": "4.7",
-        "Google Play Ratings": "4.6",
-        "Website URL": "https://surveypop.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "US/UK/CA/AU",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn $0.50 bonus for every successful referral and 10% of their earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": ["Daily check-in Rewards"]
-        },
-        "Additional Notes": "Focuses on general consumer insights, lifestyle, and market research surveys.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Survey Savvy",
-        "Priority": 3,
-        "Trustpilot Ratings": "3",
-        "App Store Ratings": "2.6",
-        "Google Play Ratings": "3.1",
-        "Website URL": "https://www.surveysavvy.com/?m=7624881",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Checks"],
-        "Minimum Payout": {
-            "Other": "$1"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.5",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Earn $3 by installing SavvyConnect"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": "https://vocal.media/lifehack/survey-savvy-review-is-it-worth-your-time-or-just-a-waste"
-    },
-    {
-        "Website Name": "Survey Spin",
-        "Trustpilot Ratings": "2.4",
-        "App Store Ratings": "4.7",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://surveyspin.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US/UK/CA/AU",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.25",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn $1 for every successful referral and 10% of their earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on consumer behavior, market research, and product feedback surveys.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Surveyeah",
-        "Trustpilot Ratings": "4.5",
-        "App Store Ratings": "3.3",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.surveyeah.com/en/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 10% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Offers surveys related to consumer habits and opinions",
-        "Review": ""
-    },
-    {
-        "Website Name": "SurveyLama",
-        "Trustpilot Ratings": "4.1",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://surveylama.com/en",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Crypto", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 15% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Catered toward global users",
-        "Review": ""
-    },
-    {
-        "Website Name": "SurveyMagic",
-        "Trustpilot Ratings": "Not listed",
-        "App Store Ratings": "4.5",
-        "Google Play Ratings": "4",
-        "Website URL": "https://www.surveymagic.co/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$0.50"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 10% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": ["Bonus for consistent participation"]
-        },
-        "Additional Notes": "Focuses consumer habits, product feedback, entertainment preferences, and lifestyle trends",
-        "Review": ""
-    },
-    {
-        "Website Name": "Surveys on the Go",
-        "Trustpilot Ratings": "2.4",
-        "App Store Ratings": "4.5",
-        "Google Play Ratings": "4.1",
-        "Website URL": "https://surveysonthego.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "US/UK/CA/AU",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards", "Prepaid Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": ["High-pay for video responses"]
-        },
-        "Additional Notes": "Focuses on shopping habits, media preferences, and detailed consumer opinions.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Surveys2Cash",
-        "Trustpilot Ratings": "4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://surveys2cash.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["Paypal", "Checks"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Aggregates surveys from multiple providers, be cautious of potential spam",
-        "Review": ""
-    },
-    {
-        "Website Name": "Surveytime",
-        "Trustpilot Ratings": "3.5",
-        "App Store Ratings": "4.1",
-        "Google Play Ratings": "3",
-        "Website URL": "https://surveytime.io/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Worldwide",
-            "Verification": ["Email Address or Social accounts"]
-        },
-        "Payment Methods": ["Paypal", "Gift Cards", "Crypto"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn $1 per successful referral after they complete their first survey."
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Daily Streaks & Rewards, Atom System"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Survimo",
-        "Trustpilot Ratings": "1.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "4",
-        "Website URL": "https://survimo.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Swagbucks",
-        "Trustpilot Ratings": "4",
-        "App Store Ratings": "4.4",
-        "Google Play Ratings": "4.5",
-        "Website URL": "https://www.swagbucks.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$1"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.25",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Daily Polls, Daily Goals and Bonuses"]
-        },
-        "Additional Notes": "Offerwalls, Cashback, Videos, Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "Talk Online Panel",
-        "Trustpilot Ratings": "3",
-        "App Store Ratings": "3.5",
-        "Google Play Ratings": "4.1",
-        "Website URL": "https://talkonlinepanel.com/gb",
-        "Registration Requirements": {
-            "Age": 14,
-            "Region": "EU",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Vouchers", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.30",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Monthly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "TaskBucks",
-        "Trustpilot Ratings": "2.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "4.2",
-        "Website URL": "https://www.taskbucks.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "India",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["Mobile Credits", "Paytm"],
-        "Minimum Payout": {
-            "Other": "₹10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "₹1",
-            "Max": "₹50"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn ₹25 for every referral you get"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Daily Bonuses"]
-        },
-        "Additional Notes": "Surveys, app downloads, contests",
-        "Review": ""
-    },
-    {
-        "Website Name": "Tellwut",
-        "Trustpilot Ratings": "4.3",
-        "App Store Ratings": "2.5",
-        "Google Play Ratings": "3.4",
-        "Website URL": "https://www.tellwut.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn points for each referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Earn by creating surveys and participating in others' surveys.",
-        "Review": ""
-    },
-    {
-        "Website Name": "TGM Panel",
-        "Trustpilot Ratings": "3.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://tgmpanel.is/en/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$7"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.13",
-            "Max": "$1.63"
-        },
-        "Survey Frequency": "Monthly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Compensates Disqualification"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "The Opinion Panel",
-        "Trustpilot Ratings": "3.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.opinionpanel.co.uk/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "UK",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Vouchers"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$4"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focused on topics relevant to young people",
-        "Review": ""
-    },
-    {
-        "Website Name": "The Panel Station",
-        "Trustpilot Ratings": "4.1",
-        "App Store Ratings": "2.9",
-        "Google Play Ratings": "4.2",
-        "Website URL": "https://thepanellstation.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US/UK/CA",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1.50"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn 10% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android"],
-            "Others": ["Loyalty Reward System"]
-        },
-        "Additional Notes": "Targets developing markets; offers both local and global surveys.",
-        "Review": ""
-    },
-    {
-        "Website Name": "Timebucks",
-        "Trustpilot Ratings": "4.4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "4.1",
-        "Website URL": "https://timebucks.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Crypto", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Tier-based referral bonuses"
-        },
-        "Special Features": {
-            "Platform": ["Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Offerwalls, Videos, Focuses on market research and day-to-day life",
-        "Review": ""
-    },
-    {
-        "Website Name": "Toluna Influencers",
-        "Trustpilot Ratings": "4.1",
-        "App Store Ratings": "4.6",
-        "Google Play Ratings": "4.5",
-        "Website URL": "https://www.toluna.com/",
-        "Registration Requirements": {
-            "Age": 16,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards", "Crypto"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn up to 500 points per referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": ["Daily Polls, Games, Contests"]
-        },
-        "Additional Notes": "Focuses on global users with varied interests",
-        "Review": ""
-    },
-    {
-        "Website Name": "Triaba",
-        "Trustpilot Ratings": "2.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.triaba.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn $1 per active referral"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focus on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Unlock Surveys",
-        "Trustpilot Ratings": "2.8",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.unlocksurveys.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "US",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards", "Sweepstakes"],
-        "Minimum Payout": {
-            "Other": "$25"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$2"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Limited, they only chose the people who's allowed to refer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focus on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "User Interviews",
-        "Trustpilot Ratings": "4.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.userinterviews.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "No minimum payout"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$50",
-            "Max": "$200"
-        },
-        "Survey Frequency": "Varies",
-        "Referral Program": {
-            "Earnings": "Earn $10 when your referral completes a study"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": ["Studies/Interviews"]
-        },
-        "Additional Notes": "Product tests, Focus groups, and Usability studies",
-        "Review": ""
-    },
-    {
-        "Website Name": "Valued Opinions",
-        "Trustpilot Ratings": "4.4",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://www.valuedopinions.com/",
-        "Registration Requirements": {
-            "Age": 17,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["Gift Cards", "Vouchers"],
-        "Minimum Payout": {
-            "Other": "$20"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.50",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Does not offer"
-        },
-        "Special Features": {
-            "Platform": ["Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "Viewfruit",
-        "Trustpilot Ratings": "Not listed",
-        "App Store Ratings": "2.5",
-        "Google Play Ratings": "Not listed",
-        "Website URL": "https://ph.viewfruit.com/",
-        "Registration Requirements": {
-            "Age": 18,
-            "Region": "Widely Accessible",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.20",
-            "Max": "$1.50"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 10% of your referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Web"],
-            "Others": ["Lucky Draw, Polls"]
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "YouGov",
-        "Trustpilot Ratings": "4.6",
-        "App Store Ratings": "4.6",
-        "Google Play Ratings": "4.6",
-        "Website URL": "https://account.yougov.com/",
-        "Registration Requirements": {
-            "Age": 14,
-            "Region": "Worldwide",
-            "Verification": ["Email Verification"]
-        },
-        "Payment Methods": ["Bank Transfer", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$20 to $50 (Location)"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$5"
-        },
-        "Survey Frequency": "Weekly",
-        "Referral Program": {
-            "Earnings": "Earn $1 for each referral"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Focuses on market research",
-        "Review": ""
-    },
-    {
-        "Website Name": "ySense",
-        "Trustpilot Ratings": "3.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "3.3",
-        "Website URL": "https://www.ysense.com/login",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards", "Skrill"],
-        "Minimum Payout": {
-            "Other": "$10"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$1"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn up to 30% referral bonus"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Watching videos, playing games, and referrals; offers bonuses for consistent activity",
-        "Review": ""
-    },
-    {
-        "Website Name": "ZoomBucks",
-        "Trustpilot Ratings": "4.5",
-        "App Store Ratings": "Not listed",
-        "Google Play Ratings": "3.1",
-        "Website URL": "https://www.zoombucks.com/",
-        "Registration Requirements": {
-            "Age": 13,
-            "Region": "Worldwide",
-            "Verification": ["Email Address"]
-        },
-        "Payment Methods": ["PayPal", "Gift Cards"],
-        "Minimum Payout": {
-            "Other": "$5"
-        },
-        "Average Pay Per Survey": {
-            "Min": "$0.10",
-            "Max": "$3"
-        },
-        "Survey Frequency": "Daily",
-        "Referral Program": {
-            "Earnings": "Earn 7% of referrals' earnings"
-        },
-        "Special Features": {
-            "Platform": ["iOS", "Android", "Web"],
-            "Others": []
-        },
-        "Additional Notes": "Watching videos and completing offers",
-        "Review": ""
-    }
+  {
+    "Website Name": "Lyssna",
+    "Trustpilot Ratings": "3.2",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.lyssna.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$15"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Varies",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Polls"
+      ]
+    },
+    "Additional Notes": "Focuses on market research and product to user testing",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Milieu Surveys",
+    "Trustpilot Ratings": "Not listed",
+    "App Store Ratings": "4.6",
+    "Google Play Ratings": "4.5",
+    "Website URL": "https://www.mili.eu/sg/community",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email & Phone Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards",
+      "Mobile Credits",
+      "E-wallets"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 500 bonus points for every successful referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Daily Polls, Leaderboard Rankings, Streak Rewards"
+      ]
+    },
+    "Additional Notes": "Focused on societal and consumer insights.",
+    "Review": "",
+    "Countries": [
+      "Indonesia",
+      "Malaysia",
+      "Singapore",
+      "Thailand",
+      "Vietnam",
+      "Philippines"
+    ]
+  },
+  {
+    "Website Name": "MobileXpression",
+    "Trustpilot Ratings": "2.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "3.7",
+    "Website URL": "https://rewards.mobilexpression.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address",
+        "App Installation"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Sweepstakes"
+      ]
+    },
+    "Additional Notes": "Earn rewards for allowing the app to monitor browsing habits.",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "India",
+      "South Africa",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Sweden",
+      "Denmark",
+      "Norway",
+      "Finland",
+      "Ireland",
+      "Portugal",
+      "Greece",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Slovakia",
+      "Romania",
+      "Brazil",
+      "Mexico",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Venezuela",
+      "Japan",
+      "South Korea",
+      "China",
+      "Hong Kong",
+      "Taiwan",
+      "Thailand",
+      "Vietnam",
+      "Singapore",
+      "Malaysia",
+      "Philippines",
+      "Indonesia",
+      "New Zealand"
+    ]
+  },
+  {
+    "Website Name": "Mobrog",
+    "Trustpilot Ratings": "4.4",
+    "App Store Ratings": "3.8",
+    "Google Play Ratings": "4.1",
+    "Website URL": "https://www.mobrog.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Skrill"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Surveys focus on market research topics",
+    "Review": "",
+    "Countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Bangladesh",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "China",
+      "Colombia",
+      "Czech Republic",
+      "Denmark",
+      "Egypt",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Kenya",
+      "Malaysia",
+      "Mexico",
+      "Morocco",
+      "Netherlands",
+      "New Zealand",
+      "Nigeria",
+      "Norway",
+      "Pakistan",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Saudi Arabia",
+      "Singapore",
+      "Slovakia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "Thailand",
+      "Turkey",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States",
+      "Venezuela",
+      "Vietnam"
+    ]
+  },
+  {
+    "Website Name": "MyPoints",
+    "Trustpilot Ratings": "4.3",
+    "App Store Ratings": "4.2",
+    "Google Play Ratings": "3.7",
+    "Website URL": "https://www.mypoints.com/login",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$3"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn up to 25% of referrals' points"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Earn points from surveys, shopping, and reading emails",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "MySoapBox",
+    "Trustpilot Ratings": "1.9",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.mysoapbox.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "US/CA",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$25"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.75",
+      "Max": "$1.50"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 250 points for each friend you refer, referral contests"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Offers surveys, product-testing and focus groups",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "MyView",
+    "Trustpilot Ratings": "3",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.myview.com/",
+    "Registration Requirements": {
+      "Age": 14,
+      "Region": "US",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$1",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "National Consumer Panel",
+    "Trustpilot Ratings": "Not listed",
+    "App Store Ratings": "4.4",
+    "Google Play Ratings": "4.5",
+    "Website URL": "https://www.ncppanel.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards",
+      "Sweepstakes Entries"
+    ],
+    "Minimum Payout": {
+      "Other": "No minimum payout"
+    },
+    "Average Pay Per Survey": {
+      "Min": "N/A",
+      "Max": "N/A"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Panel-based Research",
+        "Barcode scanning app"
+      ]
+    },
+    "Additional Notes": "Sharing shopping habits; rewards are based on scanning purchases rather than surveys",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Nicequest",
+    "Trustpilot Ratings": "3.4",
+    "App Store Ratings": "4.7",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.nicequest.com/us",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "US",
+      "Verification": [
+        "Invitation-only"
+      ]
+    },
+    "Payment Methods": [
+      "Gifts",
+      "Vouchers",
+      "Credits",
+      "Sweepstakes Entries"
+    ],
+    "Minimum Payout": {
+      "Other": "-"
+    },
+    "Average Pay Per Survey": {
+      "Min": "-",
+      "Max": "-"
+    },
+    "Survey Frequency": "Monthly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "High-quality rewards but no monetary compensation",
+    "Review": "",
+    "Countries": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "United States",
+      "Mexico",
+      "Brazil",
+      "Colombia",
+      "Argentina",
+      "Chile",
+      "Peru",
+      "Ecuador",
+      "Uruguay",
+      "Costa Rica",
+      "Guatemala",
+      "Panama",
+      "El Salvador",
+      "Honduras",
+      "Dominican Republic",
+      "Philippines",
+      "India",
+      "Indonesia",
+      "Thailand",
+      "Vietnam",
+      "Malaysia",
+      "Singapore",
+      "Taiwan",
+      "South Korea",
+      "Japan",
+      "Australia",
+      "South Africa",
+      "Egypt",
+      "Morocco",
+      "Turkey",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ]
+  },
+  {
+    "Website Name": "Nielsen",
+    "Trustpilot Ratings": "4.2",
+    "App Store Ratings": "4",
+    "Google Play Ratings": "3.9",
+    "Website URL": "https://www.nielsen.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US/UK/CA",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Rewards users for sharing browsing habits; includes sweepstakes entries.",
+    "Review": "",
+    "Countries": [
+      "Algeria",
+      "Angola",
+      "Botswana",
+      "Cameroon",
+      "Egypt",
+      "Ethiopia",
+      "Ghana",
+      "Ivory Coast",
+      "Kenya",
+      "Libya",
+      "Madagascar",
+      "Malawi",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Nigeria",
+      "Senegal",
+      "South Africa",
+      "Sudan",
+      "Tanzania",
+      "Tunisia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe",
+      "Bangladesh",
+      "China",
+      "Hong Kong",
+      "India",
+      "Indonesia",
+      "Israel",
+      "Japan",
+      "Jordan",
+      "Kazakhstan",
+      "Kuwait",
+      "Lebanon",
+      "Malaysia",
+      "Mongolia",
+      "Myanmar",
+      "Nepal",
+      "Oman",
+      "Pakistan",
+      "Philippines",
+      "Qatar",
+      "Saudi Arabia",
+      "Singapore",
+      "South Korea",
+      "Sri Lanka",
+      "Taiwan",
+      "Thailand",
+      "United Arab Emirates",
+      "Vietnam",
+      "Yemen",
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Iceland",
+      "Ireland",
+      "Italy",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Turkey",
+      "Ukraine",
+      "United Kingdom",
+      "Canada",
+      "Mexico",
+      "United States",
+      "Australia",
+      "New Zealand",
+      "Papua New Guinea",
+      "Fiji",
+      "Argentina",
+      "Bolivia",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Ecuador",
+      "Paraguay",
+      "Peru",
+      "Uruguay",
+      "Venezuela",
+      "Bahrain",
+      "Iraq",
+      "Israel",
+      "Jordan",
+      "Kuwait",
+      "Lebanon",
+      "Oman",
+      "Qatar",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ]
+  },
+  {
+    "Website Name": "Nortstatpanel",
+    "Trustpilot Ratings": "4",
+    "App Store Ratings": "2.5",
+    "Google Play Ratings": "2.3",
+    "Website URL": "https://www.norstatpanel.com/",
+    "Registration Requirements": {
+      "Age": 14,
+      "Region": "UK",
+      "Verification": [
+        "Email Address",
+        "Invitation-only"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards",
+      "Coupons"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "€0.50",
+      "Max": "€5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Loyaly Program"
+      ]
+    },
+    "Additional Notes": "Focuses on the societal influence of participants' opinions",
+    "Review": "",
+    "Countries": [
+      "Norway",
+      "Sweden",
+      "Denmark",
+      "Finland",
+      "Estonia",
+      "Latvia",
+      "Lithuania",
+      "Poland",
+      "Germany",
+      "United Kingdom",
+      "France",
+      "Switzerland",
+      "Netherlands",
+      "Austria",
+      "Italy",
+      "Belgium"
+    ]
+  },
+  {
+    "Website Name": "Opinion Bureau",
+    "Trustpilot Ratings": "1.5",
+    "App Store Ratings": "2.3",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.opinionbureau.com/login",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Surveys focused on societal and consumer trends.",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "India",
+      "Australia",
+      "Canada",
+      "South Africa",
+      "Singapore",
+      "United Arab Emirates"
+    ]
+  },
+  {
+    "Website Name": "Opinion Edge",
+    "Trustpilot Ratings": "2.7",
+    "App Store Ratings": "1.8",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://panel.opinion-edge.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards",
+      "Paypal (soon)"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Monthly",
+    "Referral Program": {
+      "Earnings": "Earn $0.20 for each verified referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Compensates Disqualification"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "India",
+      "South Africa",
+      "New Zealand",
+      "Singapore",
+      "Malaysia",
+      "Philippines",
+      "Indonesia",
+      "Nigeria",
+      "Kenya",
+      "Ghana",
+      "Pakistan",
+      "Bangladesh",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Egypt",
+      "Turkey",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Sweden",
+      "Denmark",
+      "Norway",
+      "Finland",
+      "Austria",
+      "Ireland",
+      "Portugal",
+      "Greece",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Slovakia",
+      "Romania",
+      "Bulgaria",
+      "Croatia",
+      "Slovenia",
+      "Estonia",
+      "Latvia",
+      "Lithuania",
+      "Russia",
+      "Ukraine",
+      "Brazil",
+      "Mexico",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Peru",
+      "Venezuela",
+      "South Korea",
+      "Japan",
+      "China",
+      "Hong Kong",
+      "Taiwan",
+      "Thailand",
+      "Vietnam"
+    ]
+  },
+  {
+    "Website Name": "Opinion Outpost",
+    "Trustpilot Ratings": "4.2",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "ww.opinionoutpost.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Offers frequent surveys with low minimum payout thresholds.",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Australia"
+    ]
+  },
+  {
+    "Website Name": "Opinion World",
+    "Trustpilot Ratings": "4.2",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.opinionworld.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Quarterly prize draws"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "India",
+      "Singapore",
+      "Malaysia",
+      "Thailand",
+      "Philippines",
+      "Indonesia",
+      "Vietnam",
+      "Hong Kong",
+      "China",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Austria",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Ireland",
+      "Poland",
+      "Portugal",
+      "Greece",
+      "Russia",
+      "Turkey",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Mexico",
+      "Peru",
+      "South Africa",
+      "Egypt",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ]
+  },
+  {
+    "Website Name": "OpinionPioneer",
+    "Trustpilot Ratings": "2.1",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://opinionpioneer.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 15% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Compensates Disqualification"
+      ]
+    },
+    "Additional Notes": "Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "PaidViewPoint",
+    "Trustpilot Ratings": "2.8",
+    "App Store Ratings": "4.8",
+    "Google Play Ratings": "4.2",
+    "Website URL": "https://app.paidviewpoint.com/",
+    "Registration Requirements": {
+      "Age": 15,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$15"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$0.50"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 20% when your referral makes a withdrawal"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "TraitScore System"
+      ]
+    },
+    "Additional Notes": "Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Panda Research",
+    "Trustpilot Ratings": "2.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.pandaresearch.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$50"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$1",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focus on market research, Offers paid email reading",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Panel Champ",
+    "Trustpilot Ratings": "1.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.panelchamp.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Tango",
+      "Visa",
+      "Check"
+    ],
+    "Minimum Payout": {
+      "Other": "$13"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.25",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom",
+      "Norway",
+      "Sweden",
+      "Finland",
+      "France",
+      "Germany",
+      "Italy",
+      "Spain",
+      "China",
+      "Japan",
+      "India",
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "New Zealand"
+    ]
+  },
+  {
+    "Website Name": "Pawns.app",
+    "Trustpilot Ratings": "4.4",
+    "App Store Ratings": "4.4",
+    "Google Play Ratings": "4.6",
+    "Website URL": "https://pawns.app/",
+    "Registration Requirements": {
+      "Age": 14,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Crypto",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% when your referral makes a withdrawal"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Bandwidth Sharing, Game offers, Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "PineCone Research",
+    "Trustpilot Ratings": "1.6",
+    "App Store Ratings": "2.2",
+    "Google Play Ratings": "3",
+    "Website URL": "https://members.pineconeresearch.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US/UK/CA",
+      "Verification": [
+        "Email Address",
+        "SMS/Call Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$3"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$1",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Varies",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Invitation-only"
+      ]
+    },
+    "Additional Notes": "Focuses on market research & product testing",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France"
+    ]
+  },
+  {
+    "Website Name": "PointClub",
+    "Trustpilot Ratings": "1.3",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.pointclub.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1.50"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Daily Bonus"
+      ]
+    },
+    "Additional Notes": "Offers higher payouts for survey streaks; surveys focus on various topics.",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Points2Shop",
+    "Trustpilot Ratings": "1.4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.points2shop.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$15"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn $1 when referral completes their first survey"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Poll Pay",
+    "Trustpilot Ratings": "4.6",
+    "App Store Ratings": "4.6",
+    "Google Play Ratings": "4.5",
+    "Website URL": "https://www.pollpay.app/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address or Social accounts"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 15% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Earning Boosts, Sweepstakes"
+      ]
+    },
+    "Additional Notes": "Focused on market research, consumer goods, technology trends, and entertainment",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Prime Opinion",
+    "Trustpilot Ratings": "4.4",
+    "App Store Ratings": "4.7",
+    "Google Play Ratings": "4.7",
+    "Website URL": "https://www.primeopinion.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Bank Transfer",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.80",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn $1 when your referral makes a withdrawal"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": [
+      "Australia",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Italy",
+      "Kenya",
+      "Malaysia",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Nigeria",
+      "Norway",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Saudi Arabia",
+      "Singapore",
+      "South Africa",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Thailand",
+      "Turkey",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States",
+      "Vietnam",
+      "Egypt",
+      "Colombia",
+      "Chile",
+      "Argentina",
+      "Peru",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Panama",
+      "Costa Rica",
+      "Ecuador",
+      "Venezuela",
+      "Bahrain",
+      "Kuwait",
+      "Qatar",
+      "Oman",
+      "Lebanon",
+      "Jordan",
+      "Israel",
+      "Taiwan",
+      "Hong Kong",
+      "Japan",
+      "South Korea"
+    ]
+  },
+  {
+    "Website Name": "PrizeRebel",
+    "Trustpilot Ratings": "3.1",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.prizerebel.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Crypto",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 15% to 30% when your referral makes a withdrawal"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Loyalty System, Raffles & Contests"
+      ]
+    },
+    "Additional Notes": "Offerwalls, Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Product Report Card",
+    "Trustpilot Ratings": "4.4",
+    "App Store Ratings": "2.2",
+    "Google Play Ratings": "3.6",
+    "Website URL": "https://www.productreportcard.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "North America",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Tier-based referral bonuses"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Surveys focused on product testing and detailed consumer feedback.",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Prolific",
+    "Trustpilot Ratings": "4.6",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://auth.prolific.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "£5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "£0.2",
+      "Max": "£5"
+    },
+    "Survey Frequency": "Varies",
+    "Referral Program": {
+      "Earnings": "Earn $30 when your referral completes a study"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Studies/Interviews"
+      ]
+    },
+    "Additional Notes": "Academic Research Focus",
+    "Review": "",
+    "Countries": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Croatia",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Iceland",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Korea (South Korea)",
+      "Latvia",
+      "Luxembourg",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Slovakia",
+      "Slovenia",
+      "South Africa",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Qmee",
+    "Trustpilot Ratings": "4.1",
+    "App Store Ratings": "4.6",
+    "Google Play Ratings": "4.3",
+    "Website URL": "https://www.qmee.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "US/UK/CA/AU/FR/DE",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "No minimum payout"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$1.50"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn $1 when your referral gets their 1st cashout"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Browser Extension"
+      ]
+    },
+    "Additional Notes": "Offers cashback and deals when shopping online",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "France",
+      "Germany"
+    ]
+  },
+  {
+    "Website Name": "QuickThoughts",
+    "Trustpilot Ratings": "1.7",
+    "App Store Ratings": "3.3",
+    "Google Play Ratings": "4.1",
+    "Website URL": "https://www.quickthoughtsapp.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$1",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "India",
+      "Mexico",
+      "Brazil",
+      "Japan",
+      "South Korea"
+    ]
+  },
+  {
+    "Website Name": "RedMonkey",
+    "Trustpilot Ratings": "3.4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://redmonkey.app/earn",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Crypto"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1.50"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 15% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focused on opinion sharing; offers high survey frequency with decent pay",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Respondent",
+    "Trustpilot Ratings": "3.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://app.respondent.io/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "No minimum payout"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$5",
+      "Max": "$200"
+    },
+    "Survey Frequency": "Varies",
+    "Referral Program": {
+      "Earnings": "Earn $20 when your referral completes a study"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Studies/Interviews"
+      ]
+    },
+    "Additional Notes": "Product tests, Focus groups, and Usability studies",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Reward XP",
+    "Trustpilot Ratings": "4.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.rewardxp.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Crypto",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Loyalty & Level System"
+      ]
+    },
+    "Additional Notes": "Offerwalls, Videos, Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Rewards1",
+    "Trustpilot Ratings": "4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.rewards1.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn points for each referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Offers, and watching videos",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "SayMore",
+    "Trustpilot Ratings": "1.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.saymore.io/Account/Join",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$25"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn $1 for every successful referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Australia",
+      "India",
+      "South Africa"
+    ]
+  },
+  {
+    "Website Name": "Shopper's Voice",
+    "Trustpilot Ratings": "Not listed",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.shoppersvoice.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US/CA",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Coupons",
+      "Samples"
+    ],
+    "Minimum Payout": {
+      "Other": "N/A"
+    },
+    "Average Pay Per Survey": {
+      "Min": "N/A",
+      "Max": "N/A"
+    },
+    "Survey Frequency": "Annual",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on consumer product feedback; participants receive tailored offers.",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "SpiderMetrix",
+    "Trustpilot Ratings": "2.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.spidermetrix.com/",
+    "Registration Requirements": {
+      "Age": 14,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$50"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 1 point for every referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Quickies (Short Surveys)"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Superpay.me",
+    "Trustpilot Ratings": "3.7",
+    "App Store Ratings": "1.7",
+    "Google Play Ratings": "4",
+    "Website URL": "https://superpay.me/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$1"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn up to 20% referral bonus"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Streak Bonuses"
+      ]
+    },
+    "Additional Notes": "Offers instant payment options; includes tasks like surveys, videos, and contests.",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Surveoo",
+    "Trustpilot Ratings": "3.9",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.surveoo.com/en/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email & Number Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Bank Transfer",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$20"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Achievement Rewards"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Austria",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Ireland",
+      "Portugal",
+      "Poland",
+      "Greece",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Bulgaria",
+      "Slovakia",
+      "Croatia",
+      "Lithuania",
+      "Latvia",
+      "Estonia",
+      "South Africa",
+      "India",
+      "Singapore",
+      "Malaysia",
+      "Philippines"
+    ]
+  },
+  {
+    "Website Name": "Survey Club",
+    "Trustpilot Ratings": "3.4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.surveyclub.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$1"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$200"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn $1 per successful referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focus groups, clinical trials, in-home usage tests; Aggregates survey opportunities from multiple sources",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Survey Junkie",
+    "Trustpilot Ratings": "4",
+    "App Store Ratings": "4.5",
+    "Google Play Ratings": "4.3",
+    "Website URL": "https://www.surveyjunkie.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "US/UK/CA/AU",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn $1.50 for each referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Survey Pop",
+    "Trustpilot Ratings": "1.6",
+    "App Store Ratings": "4.7",
+    "Google Play Ratings": "4.6",
+    "Website URL": "https://surveypop.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "US/UK/CA/AU",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn $0.50 bonus for every successful referral and 10% of their earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Daily check-in Rewards"
+      ]
+    },
+    "Additional Notes": "Focuses on general consumer insights, lifestyle, and market research surveys.",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Survey Savvy",
+    "Priority": 3,
+    "Trustpilot Ratings": "3",
+    "App Store Ratings": "2.6",
+    "Google Play Ratings": "3.1",
+    "Website URL": "https://www.surveysavvy.com/?m=7624881",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Checks"
+    ],
+    "Minimum Payout": {
+      "Other": "$1"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.5",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Earn $3 by installing SavvyConnect"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "https://vocal.media/lifehack/survey-savvy-review-is-it-worth-your-time-or-just-a-waste",
+    "Countries": []
+  },
+  {
+    "Website Name": "Survey Spin",
+    "Trustpilot Ratings": "2.4",
+    "App Store Ratings": "4.7",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://surveyspin.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US/UK/CA/AU",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.25",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn $1 for every successful referral and 10% of their earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on consumer behavior, market research, and product feedback surveys.",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Surveyeah",
+    "Trustpilot Ratings": "4.5",
+    "App Store Ratings": "3.3",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.surveyeah.com/en/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 10% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Offers surveys related to consumer habits and opinions",
+    "Review": "",
+    "Countries": [
+      "Albania",
+      "Algeria",
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Bolivia",
+      "Brazil",
+      "Bulgaria",
+      "Canada",
+      "Chile",
+      "Colombia",
+      "Costa Rica",
+      "Croatia",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Dominican Republic",
+      "Ecuador",
+      "Egypt",
+      "El Salvador",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Guatemala",
+      "Honduras",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Kenya",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malaysia",
+      "Malta",
+      "Mexico",
+      "Morocco",
+      "Netherlands",
+      "New Zealand",
+      "Nicaragua",
+      "Nigeria",
+      "Norway",
+      "Panama",
+      "Paraguay",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Saudi Arabia",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "South Africa",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Thailand",
+      "Tunisia",
+      "Turkey",
+      "Ukraine",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States",
+      "Uruguay",
+      "Venezuela",
+      "Vietnam"
+    ]
+  },
+  {
+    "Website Name": "SurveyLama",
+    "Trustpilot Ratings": "4.1",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://surveylama.com/en",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Crypto",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 15% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Catered toward global users",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "New Zealand",
+      "Ireland",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Austria",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "South Africa",
+      "India",
+      "Singapore",
+      "Malaysia",
+      "Philippines",
+      "Thailand",
+      "Indonesia",
+      "Vietnam",
+      "Hong Kong",
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Mexico",
+      "Peru",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Egypt",
+      "Turkey",
+      "Russia",
+      "Poland",
+      "Portugal",
+      "Greece",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Bulgaria",
+      "Slovakia",
+      "Croatia",
+      "Slovenia",
+      "Lithuania",
+      "Latvia",
+      "Estonia",
+      "Israel",
+      "Morocco",
+      "Nigeria",
+      "Kenya",
+      "Ghana"
+    ]
+  },
+  {
+    "Website Name": "SurveyMagic",
+    "Trustpilot Ratings": "Not listed",
+    "App Store Ratings": "4.5",
+    "Google Play Ratings": "4",
+    "Website URL": "https://www.surveymagic.co/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$0.50"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 10% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Bonus for consistent participation"
+      ]
+    },
+    "Additional Notes": "Focuses consumer habits, product feedback, entertainment preferences, and lifestyle trends",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Surveys on the Go",
+    "Trustpilot Ratings": "2.4",
+    "App Store Ratings": "4.5",
+    "Google Play Ratings": "4.1",
+    "Website URL": "https://surveysonthego.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "US/UK/CA/AU",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Prepaid Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "High-pay for video responses"
+      ]
+    },
+    "Additional Notes": "Focuses on shopping habits, media preferences, and detailed consumer opinions.",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Surveys2Cash",
+    "Trustpilot Ratings": "4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://surveys2cash.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "Paypal",
+      "Checks"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Aggregates surveys from multiple providers, be cautious of potential spam",
+    "Review": "",
+    "Countries": [
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Surveytime",
+    "Trustpilot Ratings": "3.5",
+    "App Store Ratings": "4.1",
+    "Google Play Ratings": "3",
+    "Website URL": "https://surveytime.io/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address or Social accounts"
+      ]
+    },
+    "Payment Methods": [
+      "Paypal",
+      "Gift Cards",
+      "Crypto"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn $1 per successful referral after they complete their first survey."
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Daily Streaks & Rewards, Atom System"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Survimo",
+    "Trustpilot Ratings": "1.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "4",
+    "Website URL": "https://survimo.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Swagbucks",
+    "Trustpilot Ratings": "4",
+    "App Store Ratings": "4.4",
+    "Google Play Ratings": "4.5",
+    "Website URL": "https://www.swagbucks.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$1"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.25",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Daily Polls, Daily Goals and Bonuses"
+      ]
+    },
+    "Additional Notes": "Offerwalls, Cashback, Videos, Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Talk Online Panel",
+    "Trustpilot Ratings": "3",
+    "App Store Ratings": "3.5",
+    "Google Play Ratings": "4.1",
+    "Website URL": "https://talkonlinepanel.com/gb",
+    "Registration Requirements": {
+      "Age": 14,
+      "Region": "EU",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Vouchers",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.30",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Monthly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "Austria",
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Czech Republic",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Israel",
+      "Italy",
+      "North Macedonia",
+      "Poland",
+      "Romania",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Switzerland",
+      "Turkey",
+      "United Kingdom"
+    ]
+  },
+  {
+    "Website Name": "TaskBucks",
+    "Trustpilot Ratings": "2.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "4.2",
+    "Website URL": "https://www.taskbucks.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "India",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "Mobile Credits",
+      "Paytm"
+    ],
+    "Minimum Payout": {
+      "Other": "₹10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "₹1",
+      "Max": "₹50"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn ₹25 for every referral you get"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Daily Bonuses"
+      ]
+    },
+    "Additional Notes": "Surveys, app downloads, contests",
+    "Review": "",
+    "Countries": [
+      "India"
+    ]
+  },
+  {
+    "Website Name": "Tellwut",
+    "Trustpilot Ratings": "4.3",
+    "App Store Ratings": "2.5",
+    "Google Play Ratings": "3.4",
+    "Website URL": "https://www.tellwut.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn points for each referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Earn by creating surveys and participating in others' surveys.",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "Canada"
+    ]
+  },
+  {
+    "Website Name": "TGM Panel",
+    "Trustpilot Ratings": "3.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://tgmpanel.is/en/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$7"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.13",
+      "Max": "$1.63"
+    },
+    "Survey Frequency": "Monthly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Compensates Disqualification"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Ireland",
+      "Italy",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "United Kingdom",
+      "Russia",
+      "Turkey",
+      "Ukraine",
+      "Australia",
+      "Bangladesh",
+      "China",
+      "Hong Kong",
+      "India",
+      "Indonesia",
+      "Japan",
+      "Malaysia",
+      "Myanmar",
+      "Nepal",
+      "New Zealand",
+      "Pakistan",
+      "Philippines",
+      "Singapore",
+      "South Korea",
+      "Taiwan",
+      "Thailand",
+      "Vietnam",
+      "Algeria",
+      "Egypt",
+      "Kenya",
+      "Morocco",
+      "Namibia",
+      "Nigeria",
+      "South Africa",
+      "Tanzania",
+      "Tunisia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe",
+      "Bahrain",
+      "Israel",
+      "Jordan",
+      "Kuwait",
+      "Lebanon",
+      "Oman",
+      "Qatar",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Argentina",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Colombia",
+      "Mexico",
+      "Peru",
+      "United States",
+      "Uruguay",
+      "Venezuela"
+    ]
+  },
+  {
+    "Website Name": "The Opinion Panel",
+    "Trustpilot Ratings": "3.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.opinionpanel.co.uk/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "UK",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Vouchers"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$4"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focused on topics relevant to young people",
+    "Review": "",
+    "Countries": [
+      "United Kingdom"
+    ]
+  },
+  {
+    "Website Name": "The Panel Station",
+    "Trustpilot Ratings": "4.1",
+    "App Store Ratings": "2.9",
+    "Google Play Ratings": "4.2",
+    "Website URL": "https://thepanellstation.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US/UK/CA",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1.50"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn 10% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android"
+      ],
+      "Others": [
+        "Loyalty Reward System"
+      ]
+    },
+    "Additional Notes": "Targets developing markets; offers both local and global surveys.",
+    "Review": "",
+    "Countries": [
+      "India",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "South Africa",
+      "Nigeria",
+      "Kenya",
+      "Indonesia",
+      "Thailand",
+      "Vietnam",
+      "Malaysia",
+      "Singapore",
+      "Philippines",
+      "Australia",
+      "New Zealand",
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Brazil",
+      "Chile",
+      "Colombia",
+      "Argentina",
+      "Peru",
+      "Mexico",
+      "Egypt",
+      "Turkey",
+      "Pakistan",
+      "Bangladesh",
+      "Sri Lanka",
+      "Nepal"
+    ]
+  },
+  {
+    "Website Name": "Timebucks",
+    "Trustpilot Ratings": "4.4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "4.1",
+    "Website URL": "https://timebucks.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Crypto",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Tier-based referral bonuses"
+    },
+    "Special Features": {
+      "Platform": [
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Offerwalls, Videos, Focuses on market research and day-to-day life",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Toluna Influencers",
+    "Trustpilot Ratings": "4.1",
+    "App Store Ratings": "4.6",
+    "Google Play Ratings": "4.5",
+    "Website URL": "https://www.toluna.com/",
+    "Registration Requirements": {
+      "Age": 16,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Crypto"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn up to 500 points per referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": [
+        "Daily Polls, Games, Contests"
+      ]
+    },
+    "Additional Notes": "Focuses on global users with varied interests",
+    "Review": "",
+    "Countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "China",
+      "Colombia",
+      "Czech Republic",
+      "Denmark",
+      "Egypt",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Saudi Arabia",
+      "Singapore",
+      "Slovakia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "Thailand",
+      "Turkey",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States",
+      "Vietnam"
+    ]
+  },
+  {
+    "Website Name": "Triaba",
+    "Trustpilot Ratings": "2.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.triaba.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn $1 per active referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focus on market research",
+    "Review": "",
+    "Countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Colombia",
+      "Czech Republic",
+      "Denmark",
+      "Egypt",
+      "Finland",
+      "France",
+      "Germany",
+      "Ghana",
+      "Greece",
+      "Hong Kong",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Kenya",
+      "Malaysia",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Nigeria",
+      "Norway",
+      "Pakistan",
+      "Peru",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Saudi Arabia",
+      "Singapore",
+      "Slovakia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Thailand",
+      "Turkey",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States",
+      "Vietnam",
+      "Zambia",
+      "Zimbabwe"
+    ]
+  },
+  {
+    "Website Name": "Unlock Surveys",
+    "Trustpilot Ratings": "2.8",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.unlocksurveys.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "US",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Sweepstakes"
+    ],
+    "Minimum Payout": {
+      "Other": "$25"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$2"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Limited, they only chose the people who's allowed to refer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focus on market research",
+    "Review": "",
+    "Countries": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "South Africa",
+      "Ireland"
+    ]
+  },
+  {
+    "Website Name": "User Interviews",
+    "Trustpilot Ratings": "4.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.userinterviews.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "No minimum payout"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$50",
+      "Max": "$200"
+    },
+    "Survey Frequency": "Varies",
+    "Referral Program": {
+      "Earnings": "Earn $10 when your referral completes a study"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": [
+        "Studies/Interviews"
+      ]
+    },
+    "Additional Notes": "Product tests, Focus groups, and Usability studies",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "Valued Opinions",
+    "Trustpilot Ratings": "4.4",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://www.valuedopinions.com/",
+    "Registration Requirements": {
+      "Age": 17,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "Gift Cards",
+      "Vouchers"
+    ],
+    "Minimum Payout": {
+      "Other": "$20"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.50",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Does not offer"
+    },
+    "Special Features": {
+      "Platform": [
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "Australia",
+      "Austria",
+      "Brazil",
+      "Canada",
+      "France",
+      "Germany",
+      "Ireland",
+      "Italy",
+      "Netherlands",
+      "New Zealand",
+      "Singapore",
+      "Spain",
+      "Switzerland",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "Website Name": "Viewfruit",
+    "Trustpilot Ratings": "Not listed",
+    "App Store Ratings": "2.5",
+    "Google Play Ratings": "Not listed",
+    "Website URL": "https://ph.viewfruit.com/",
+    "Registration Requirements": {
+      "Age": 18,
+      "Region": "Widely Accessible",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.20",
+      "Max": "$1.50"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 10% of your referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Web"
+      ],
+      "Others": [
+        "Lucky Draw, Polls"
+      ]
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "Australia",
+      "Austria",
+      "Bangladesh",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "China",
+      "Colombia",
+      "Czech Republic",
+      "Denmark",
+      "Egypt",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong",
+      "Hungary",
+      "India",
+      "Indonesia",
+      "Italy",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Netherlands",
+      "New Zealand",
+      "Nigeria",
+      "Norway",
+      "Philippines",
+      "Poland",
+      "Portugal",
+      "Russia",
+      "Saudi Arabia",
+      "Singapore",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Taiwan",
+      "Thailand",
+      "Turkey",
+      "United Kingdom",
+      "United States",
+      "Vietnam"
+    ]
+  },
+  {
+    "Website Name": "YouGov",
+    "Trustpilot Ratings": "4.6",
+    "App Store Ratings": "4.6",
+    "Google Play Ratings": "4.6",
+    "Website URL": "https://account.yougov.com/",
+    "Registration Requirements": {
+      "Age": 14,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Verification"
+      ]
+    },
+    "Payment Methods": [
+      "Bank Transfer",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$20 to $50 (Location)"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$5"
+    },
+    "Survey Frequency": "Weekly",
+    "Referral Program": {
+      "Earnings": "Earn $1 for each referral"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Focuses on market research",
+    "Review": "",
+    "Countries": [
+      "United Kingdom",
+      "United States",
+      "Australia",
+      "Canada",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "India",
+      "Indonesia",
+      "Italy",
+      "Malaysia",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Norway",
+      "Philippines",
+      "Singapore",
+      "Spain",
+      "Sweden",
+      "Thailand",
+      "Vietnam",
+      "Hong Kong",
+      "China",
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "Poland",
+      "Romania",
+      "South Africa"
+    ]
+  },
+  {
+    "Website Name": "ySense",
+    "Trustpilot Ratings": "3.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "3.3",
+    "Website URL": "https://www.ysense.com/login",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards",
+      "Skrill"
+    ],
+    "Minimum Payout": {
+      "Other": "$10"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$1"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn up to 30% referral bonus"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Watching videos, playing games, and referrals; offers bonuses for consistent activity",
+    "Review": "",
+    "Countries": []
+  },
+  {
+    "Website Name": "ZoomBucks",
+    "Trustpilot Ratings": "4.5",
+    "App Store Ratings": "Not listed",
+    "Google Play Ratings": "3.1",
+    "Website URL": "https://www.zoombucks.com/",
+    "Registration Requirements": {
+      "Age": 13,
+      "Region": "Worldwide",
+      "Verification": [
+        "Email Address"
+      ]
+    },
+    "Payment Methods": [
+      "PayPal",
+      "Gift Cards"
+    ],
+    "Minimum Payout": {
+      "Other": "$5"
+    },
+    "Average Pay Per Survey": {
+      "Min": "$0.10",
+      "Max": "$3"
+    },
+    "Survey Frequency": "Daily",
+    "Referral Program": {
+      "Earnings": "Earn 7% of referrals' earnings"
+    },
+    "Special Features": {
+      "Platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "Others": []
+    },
+    "Additional Notes": "Watching videos and completing offers",
+    "Review": "",
+    "Countries": []
+  }
 ]

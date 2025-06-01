@@ -20,7 +20,30 @@ tailwind.config = {
 let surveyData = [];
 
 
-// Theme toggle functionality
+/**
+ * Build <option> list in #countryFilter based on surveyData[].Countries
+ */
+function populateCountryDropdown() {
+  const countrySet = new Set();
+  surveyData.forEach(item => {
+    if (Array.isArray(item.Countries)) {
+      item.Countries.forEach(c => {
+        if (c) countrySet.add(c);
+      });
+    }
+  });
+  const countryList = Array.from(countrySet).sort((a, b) => a.localeCompare(b));
+  const countrySelect = document.getElementById('countryFilter');
+  if (!countrySelect) return;
+  countryList.forEach(country => {
+    const opt = document.createElement('option');
+    opt.value = country;
+    opt.textContent = country;
+    countrySelect.appendChild(opt);
+  });
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('themeToggle');
   
@@ -51,6 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderCards);
   }
 
+  // Set up country dropdown listener
+  const countryFilter = document.getElementById('countryFilter');
+  if (countryFilter) {
+    countryFilter.addEventListener('change', renderCards);
+  }
+
   // Fetch and render survey data
   console.log('Fetching data from data.json...');
   fetch('data.json')
@@ -61,7 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       console.log('Data loaded successfully, items:', data.length);
       surveyData = data;
-      renderCards();
+      populateCountryDropdown();   // ← fill <select> with all countries
+      renderCards();               // ← initial render
     })
     .catch(error => {
       console.error('Error loading data:', error);
@@ -101,9 +131,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+
 function renderCards() {
   const searchInput = document.getElementById('searchInput');
   const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+  const countrySelect = document.getElementById('countryFilter');
+  const selectedCountry = countrySelect ? countrySelect.value : '';
   const cardContainer = document.getElementById('cardContainer');
   
   if (!cardContainer) return;
@@ -111,20 +144,33 @@ function renderCards() {
   // Clear the container including the loading state
   cardContainer.innerHTML = '';
   
-  const mainCardContainerElement = cardContainer; // Alias for clarity in the loop
+  // Filter by name AND country
+  const filteredData = surveyData.filter(item => {
+    const matchesName = item['Website Name']
+      .toLowerCase()
+      .includes(searchTerm);
 
-  const filteredData = surveyData.filter(item => 
-    item['Website Name'].toLowerCase().includes(searchTerm)
-  );
+    let matchesCountry = true;
+    if (selectedCountry) {
+      matchesCountry = Array.isArray(item.Countries) &&
+                       item.Countries.includes(selectedCountry);
+    }
+
+    return matchesName && matchesCountry;
+  });
 
   if (filteredData.length === 0) {
     let message = "No survey websites found.";
-    if (searchTerm) {
+    if (searchTerm && !selectedCountry) {
       message = `No survey websites found matching your search for "${searchTerm}".`;
-    } else if (surveyData.length === 0 && !searchTerm) {
+    } else if (!searchTerm && selectedCountry) {
+      message = `No survey websites available in "${selectedCountry}".`;
+    } else if (searchTerm && selectedCountry) {
+      message = `No survey websites matching "${searchTerm}" in "${selectedCountry}".`;
+    } else if (surveyData.length === 0 && !searchTerm && !selectedCountry) {
       message = "Survey data is currently unavailable. Please check back later or try refining your search if applicable.";
     }
-    mainCardContainerElement.innerHTML = `
+    cardContainer.innerHTML = `
       <div class="col-span-full flex flex-col items-center justify-center py-12">
         <div class="text-gray-500 dark:text-gray-400 text-center px-4">
           <i class="fas fa-info-circle text-4xl mb-3"></i>
@@ -159,14 +205,10 @@ function renderCards() {
   filteredData.forEach(item => {
     const card = document.createElement('div');
     card.className = 'card card-container w-full bg-white dark:bg-gray-800 shadow-lg rounded-xl overflow-hidden';
-    // REMOVE DIAGNOSTIC STYLES ON THE CARD ITSELF
-    // card.style.border = "2px solid red"; 
-    // card.style.minHeight = "50px";
 
     const cardFront = document.createElement('div');
     cardFront.className = 'card-front bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 border border-gray-200 dark:border-slate-700 hover:shadow-xl';
     
-    // RESTORING ORIGINAL COMPLEX HTML for cardFront
     const minPay = item['Average Pay Per Survey']?.['Min'] || 'Varies';
     const maxPay = item['Average Pay Per Survey']?.['Max'] || 'Varies';
     const minPayout = item['Minimum Payout']?.['PayPal'] || 
@@ -358,7 +400,7 @@ function renderCards() {
       });
     }
     
-    mainCardContainerElement.appendChild(card);
+    cardContainer.appendChild(card);
   });
 }
 
