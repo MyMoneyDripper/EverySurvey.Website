@@ -74,10 +74,14 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderCards);
   }
 
-  // Set up country dropdown listener
+  // Set up country and device dropdown listeners
   const countryFilter = document.getElementById('countryFilter');
+  const deviceFilter = document.getElementById('deviceFilter');
   if (countryFilter) {
     countryFilter.addEventListener('change', renderCards);
+  }
+  if (deviceFilter) {
+    deviceFilter.addEventListener('change', renderCards);
   }
 
   // Fetch and render survey data
@@ -137,6 +141,8 @@ function renderCards() {
   const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
   const countrySelect = document.getElementById('countryFilter');
   const selectedCountry = countrySelect ? countrySelect.value : '';
+  const deviceSelect = document.getElementById('deviceFilter');
+  const selectedDevice = deviceSelect ? deviceSelect.value : '';
   const cardContainer = document.getElementById('cardContainer');
   
   if (!cardContainer) return;
@@ -144,7 +150,7 @@ function renderCards() {
   // Clear the container including the loading state
   cardContainer.innerHTML = '';
   
-  // Filter by name AND country
+  // Filter by name, country, and device
   const filteredData = surveyData.filter(item => {
     const matchesName = item['Website Name']
       .toLowerCase()
@@ -153,10 +159,23 @@ function renderCards() {
     let matchesCountry = true;
     if (selectedCountry) {
       matchesCountry = Array.isArray(item.Countries) &&
-                       item.Countries.includes(selectedCountry);
+                     item.Countries.includes(selectedCountry);
     }
 
-    return matchesName && matchesCountry;
+    // Device filter
+    let matchesDevice = true;
+    if (selectedDevice) {
+      const platforms = item['Special Features']?.['Platform'] || [];
+      matchesDevice = platforms.some(platform => {
+        const normalized = platform.toLowerCase();
+        if (selectedDevice === 'PC') {
+          return normalized === 'web' || normalized === 'desktop' || normalized === 'pc';
+        }
+        return normalized === selectedDevice.toLowerCase();
+      });
+    }
+
+    return matchesName && matchesCountry && matchesDevice;
   });
 
   if (filteredData.length === 0) {

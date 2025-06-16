@@ -4,6 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Every Survey Website</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <meta name="theme-color" content="#4f46e5">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -60,16 +68,15 @@
         </div>
         <div class="flex flex-col items-center space-y-1">
           <h1 class="text-2xl sm:text-3xl font-bold text-center">Every Survey Website</h1>
-          <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 text-center">No Ads, No Affiliates, No Fluff</p>
+          <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 text-center">A comprehensive list of survey platforms ranked by public user reviews</p>
         </div>
       </div>
     </header>
-    <!-- Search box and Country Filter in one row -->
-    <div class="flex flex-col sm:flex-row gap-4 mb-8 w-full max-w-xl mx-auto px-4 sm:px-0">
-      <!-- Search box -->
-      <div class="relative flex-1">
-        <div class="absolute inset-y-0 left-0 pl-3 sm:pl-3 flex items-center pointer-events-none">
-          <i class="fas fa-search text-gray-400 ml-4 sm:ml-0"></i>
+    <!-- Search box on its own row -->
+    <div class="w-full max-w-4xl mx-auto px-4 sm:px-0 mb-6">
+      <div class="relative">
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <i class="fas fa-search text-gray-400"></i>
         </div>
         <input
           id="searchInput"
@@ -78,6 +85,10 @@
           class="search-input w-full pl-10 pr-4 py-3 sm:py-4 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-700 rounded-xl shadow-sm focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors"
         />
       </div>
+    </div>
+
+    <!-- Country and Device Filters in one row -->
+    <div class="flex flex-col sm:flex-row gap-4 mb-8 w-full max-w-4xl mx-auto px-4 sm:px-0">
       <!-- Country Filter Dropdown -->
       <div class="relative flex-1">
         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -87,6 +98,19 @@
                 class="w-full pl-10 pr-4 py-3 sm:py-4 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-700 rounded-xl shadow-sm focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors appearance-none">
           <option value="">All Countries</option>
           <!-- JS will append more <option> elements here -->
+        </select>
+      </div>
+      <!-- Device Filter Dropdown -->
+      <div class="relative flex-1">
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <i class="fas fa-mobile-alt text-gray-400"></i>
+        </div>
+        <select id="deviceFilter"
+                class="w-full pl-10 pr-4 py-3 sm:py-4 bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-700 rounded-xl shadow-sm focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors appearance-none">
+          <option value="">All Devices</option>
+          <option value="PC">PC</option>
+          <option value="Android">Android</option>
+          <option value="iOS">iOS</option>
         </select>
       </div>
     </div>
