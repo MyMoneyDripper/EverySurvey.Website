@@ -43,6 +43,28 @@ function populateCountryDropdown() {
   });
 }
 
+/**
+ * Build <option> list in #payoutFilter based on surveyData[].Payment Methods
+ */
+function populatePayoutDropdown() {
+  const payoutMethodSet = new Set();
+  surveyData.forEach(item => {
+    if (Array.isArray(item['Payment Methods'])) {
+      item['Payment Methods'].forEach(method => {
+        if (method) payoutMethodSet.add(method);
+      });
+    }
+  });
+  const payoutMethodList = Array.from(payoutMethodSet).sort();
+  const payoutSelect = document.getElementById('payoutFilter');
+  if (!payoutSelect) return;
+  payoutMethodList.forEach(method => {
+    const opt = document.createElement('option');
+    opt.value = method;
+    opt.textContent = method;
+    payoutSelect.appendChild(opt);
+  });
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('themeToggle');
@@ -74,14 +96,18 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderCards);
   }
 
-  // Set up country and device dropdown listeners
+  // Set up country, device, and payout dropdown listeners
   const countryFilter = document.getElementById('countryFilter');
   const deviceFilter = document.getElementById('deviceFilter');
+  const payoutFilter = document.getElementById('payoutFilter');
   if (countryFilter) {
     countryFilter.addEventListener('change', renderCards);
   }
   if (deviceFilter) {
     deviceFilter.addEventListener('change', renderCards);
+  }
+  if (payoutFilter) {
+    payoutFilter.addEventListener('change', renderCards);
   }
 
   // Fetch and render survey data
@@ -95,6 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log('Data loaded successfully, items:', data.length);
       surveyData = data;
       populateCountryDropdown();   // ← fill <select> with all countries
+      populatePayoutDropdown();    // ← fill <select> with all payout methods
       renderCards();               // ← initial render
     })
     .catch(error => {
@@ -135,7 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
+/**
+ * Render survey cards based on search input, country, device, and payout filters
+ */
 function renderCards() {
   const searchInput = document.getElementById('searchInput');
   const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
@@ -143,6 +172,8 @@ function renderCards() {
   const selectedCountry = countrySelect ? countrySelect.value : '';
   const deviceSelect = document.getElementById('deviceFilter');
   const selectedDevice = deviceSelect ? deviceSelect.value : '';
+  const payoutSelect = document.getElementById('payoutFilter');
+  const selectedPayout = payoutSelect ? payoutSelect.value : '';
   const cardContainer = document.getElementById('cardContainer');
   
   if (!cardContainer) return;
@@ -150,7 +181,7 @@ function renderCards() {
   // Clear the container including the loading state
   cardContainer.innerHTML = '';
   
-  // Filter by name, country, and device
+  // Filter by name, country, device, and payout
   const filteredData = surveyData.filter(item => {
     const matchesName = item['Website Name']
       .toLowerCase()
@@ -175,7 +206,14 @@ function renderCards() {
       });
     }
 
-    return matchesName && matchesCountry && matchesDevice;
+    // Payout method filter
+    let matchesPayout = true;
+    if (selectedPayout) {
+      matchesPayout = Array.isArray(item['Payment Methods']) &&
+                      item['Payment Methods'].includes(selectedPayout);
+    }
+
+    return matchesName && matchesCountry && matchesDevice && matchesPayout;
   });
 
   if (filteredData.length === 0) {
@@ -278,9 +316,9 @@ function renderCards() {
 
       <!-- Action buttons -->
       <div class="action-buttons ${item['Review'] && item['Review'] !== 'null' ? 'grid grid-cols-3 gap-2' : 'flex justify-between'} px-4 pb-1 pt-0">
-        <a href="${item['Website URL']}" target="_blank" class="signup-btn bg-gradient-to-r from-brand-blue to-blue-500 text-white hover:from-brand-blue hover:to-blue-600 py-2 rounded-lg text-center font-bold transition-colors shadow-md ${item['Review'] && item['Review'] !== 'null' ? '' : 'flex-1 mr-2'}">
+        <button data-url="${item['Website URL']}" class="signup-btn bg-gradient-to-r from-brand-blue to-blue-500 text-white hover:from-brand-blue hover:to-blue-600 py-2 rounded-lg text-center font-bold transition-colors shadow-md ${item['Review'] && item['Review'] !== 'null' ? '' : 'flex-1 mr-2'}">
           <i class="fas fa-user-plus mr-1"></i> SIGN UP
-        </a>
+        </button>
         
         <button class="details-btn bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 text-gray-800 dark:text-white hover:from-gray-300 hover:to-gray-400 dark:hover:from-gray-600 dark:hover:to-gray-700 py-2 rounded-lg text-center font-bold transition-colors ${item['Review'] && item['Review'] !== 'null' ? '' : 'flex-1 ml-2'}">
           <i class="fas fa-info-circle mr-1"></i> DETAILS
@@ -375,9 +413,9 @@ function renderCards() {
         </div>
 
         <div class="mt-3">
-          <a href="${item['Website URL']}" target="_blank" class="block w-full bg-gradient-to-r from-brand-blue to-blue-500 text-white hover:from-brand-blue hover:to-blue-600 py-2 rounded-lg text-center font-bold transition-colors shadow-md">
+          <button data-url="${item['Website URL']}" class="signup-btn block w-full bg-gradient-to-r from-brand-blue to-blue-500 text-white hover:from-brand-blue hover:to-blue-600 py-2 rounded-lg text-center font-bold transition-colors shadow-md">
             <i class="fas fa-external-link-alt mr-2"></i>VISIT WEBSITE
-          </a>
+          </button>
         </div>
       </div>
     `;
@@ -403,22 +441,21 @@ function renderCards() {
         cardFront.classList.remove('flipped');
         cardBack.classList.remove('flipped');
         card.classList.remove('flipped');
-        if (window.innerWidth < 640) {
-          setTimeout(() => { card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, 100);
+      });
+    }
+
+    const signupButtons = card.querySelectorAll('.signup-btn');
+    signupButtons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const url = button.dataset.url;
+        if (url) {
+          const encodedUrl = btoa(url);
+          window.open(`redirect.html?go=${encodedUrl}`, '_blank', 'noopener,noreferrer');
         }
       });
-    }
-    
-    const signupBtn = card.querySelector('.signup-btn');
-    if (signupBtn) {
-      signupBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const targetUrl = e.currentTarget.getAttribute('href');
-        const encodedUrl = btoa(targetUrl);
-        window.location.href = `redirect.html?go=${encodedUrl}`;
-      });
-    }
-    
+    });
+
     cardContainer.appendChild(card);
   });
 }
