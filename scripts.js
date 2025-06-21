@@ -159,6 +159,21 @@ document.addEventListener('DOMContentLoaded', () => {
         aboutUsModal.classList.add('hidden');
       }
     });
+
+    // About Us section collapse functionality
+    const sectionHeaders = aboutUsModal.querySelectorAll('.section-header');
+    sectionHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        const icon = header.querySelector('i.fas');
+
+        content.classList.toggle('hidden');
+        header.classList.toggle('border-b');
+        header.classList.toggle('border-gray-600');
+        icon.classList.toggle('fa-chevron-down');
+        icon.classList.toggle('fa-chevron-up');
+      });
+    });
   }
 });
 
