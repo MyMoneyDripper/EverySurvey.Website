@@ -214,8 +214,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Bank Transfer"
+      "Bank Transfer",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -394,8 +394,8 @@
     "Payment Methods": [
       "PayPal",
       "Gift Cards",
-      "Prepaid Card",
-      "Venmo"
+      "Venmo",
+      "Prepaid Cards"
     ],
     "Minimum Payout": {
       "Other": "$0.50"
@@ -476,9 +476,9 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
+      "Payza",
       "Swish",
-      "Payza"
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$10"
@@ -647,8 +647,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Prepaid Card"
+      "Visa Prepaid Cards",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -730,10 +730,11 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Bank Transfer",
       "Crypto",
-      "Prepaid Card"
+      "Bank Transfer",
+      "Visa Prepaid Cards",
+      "Gift Cards",
+      "+"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -776,7 +777,7 @@
     },
     "Payment Methods": [
       "Paypal",
-      "Check",
+      "Checks",
       "Direct Deposit"
     ],
     "Minimum Payout": {
@@ -1035,7 +1036,7 @@
     },
     "Payment Methods": [
       "Gift Cards",
-      "Sweepstakes"
+      "Sweepstake Entries"
     ],
     "Minimum Payout": {
       "Other": "$10"
@@ -1079,8 +1080,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Bank Transfer"
+      "Bank Transfer",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -1122,8 +1123,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Prepaid Card"
+      "Visa Prepaid Cards",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$1"
@@ -2003,7 +2004,7 @@
     },
     "Payment Methods": [
       "Gift Cards",
-      "Sweepstakes"
+      "Sweepstakes Entries"
     ],
     "Minimum Payout": {
       "Other": "No minimum payout"
@@ -2046,10 +2047,10 @@
       ]
     },
     "Payment Methods": [
-      "Sweepstakes",
+      "Gifts",
       "Vouchers",
-      "Mobile Credits",
-      "Gifts"
+      "Credits",
+      "Sweepstakes Entries"
     ],
     "Minimum Payout": {
       "Other": "-"
@@ -2386,8 +2387,8 @@
       ]
     },
     "Payment Methods": [
-      "Paypal",
-      "Gift Cards"
+      "Gift Cards",
+      "Paypal (soon)"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -2746,9 +2747,9 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Prepaid Card",
-      "Check",
-      "Tango"
+      "Tango",
+      "Visa",
+      "Check"
     ],
     "Minimum Payout": {
       "Other": "$13"
@@ -2807,8 +2808,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Crypto"
+      "Crypto",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -3016,8 +3017,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Bank Transfer"
+      "Bank Transfer",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -3118,8 +3119,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Crypto"
+      "Crypto",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -3457,8 +3458,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Crypto"
+      "Crypto",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$5"
@@ -3582,8 +3583,8 @@
       ]
     },
     "Payment Methods": [
-      "Product",
-      "Coupons"
+      "Coupons",
+      "Samples"
     ],
     "Minimum Payout": {
       "Other": "N/A"
@@ -3703,8 +3704,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Bank Transfer"
+      "Bank Transfer",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$20"
@@ -3902,7 +3903,7 @@
       ]
     },
     "Payment Methods": [
-      "Check"
+      "Checks"
     ],
     "Minimum Payout": {
       "Other": "$1"
@@ -4097,8 +4098,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Crypto"
+      "Crypto",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$10"
@@ -4237,7 +4238,7 @@
     "Payment Methods": [
       "PayPal",
       "Gift Cards",
-      "Prepaid Card"
+      "Prepaid Cards"
     ],
     "Minimum Payout": {
       "Other": "$10"
@@ -4280,7 +4281,7 @@
     },
     "Payment Methods": [
       "Paypal",
-      "Check"
+      "Checks"
     ],
     "Minimum Payout": {
       "Other": "$10"
@@ -4444,8 +4445,8 @@
       ]
     },
     "Payment Methods": [
-      "Gift Cards",
-      "Vouchers"
+      "Vouchers",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$10"
@@ -4822,8 +4823,8 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards",
-      "Crypto"
+      "Crypto",
+      "Gift Cards"
     ],
     "Minimum Payout": {
       "Other": "$10"

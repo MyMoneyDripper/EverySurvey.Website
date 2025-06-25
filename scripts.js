@@ -51,7 +51,14 @@ function populatePayoutDropdown() {
   surveyData.forEach(item => {
     if (Array.isArray(item['Payment Methods'])) {
       item['Payment Methods'].forEach(method => {
-        if (method) payoutMethodSet.add(method);
+        if (method) {
+          // Convert to lowercase and then capitalize first letter of each word
+          const normalizedMethod = method.toLowerCase()
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+          payoutMethodSet.add(normalizedMethod);
+        }
       });
     }
   });
@@ -221,11 +228,14 @@ function renderCards() {
       });
     }
 
-    // Payout method filter
+    // Payout method filter (case-insensitive)
     let matchesPayout = true;
     if (selectedPayout) {
+      const normalizedSelectedPayout = selectedPayout.toLowerCase();
       matchesPayout = Array.isArray(item['Payment Methods']) &&
-                      item['Payment Methods'].includes(selectedPayout);
+                      item['Payment Methods'].some(method => 
+                        method && method.toLowerCase() === normalizedSelectedPayout
+                      );
     }
 
     return matchesName && matchesCountry && matchesDevice && matchesPayout;
