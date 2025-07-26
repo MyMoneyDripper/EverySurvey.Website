@@ -73,6 +73,29 @@ function populatePayoutDropdown() {
   });
 }
 
+/**
+ * Build <option> list in #tagsFilter based on surveyData[].Tags
+ */
+function populateTagsDropdown() {
+  const tagsSet = new Set();
+  surveyData.forEach(item => {
+    if (Array.isArray(item.Tags)) {
+      item.Tags.forEach(tag => {
+        if (tag) tagsSet.add(tag);
+      });
+    }
+  });
+  const tagsList = Array.from(tagsSet).sort();
+  const tagsSelect = document.getElementById('tagsFilter');
+  if (!tagsSelect) return;
+  tagsList.forEach(tag => {
+    const opt = document.createElement('option');
+    opt.value = tag;
+    opt.textContent = tag;
+    tagsSelect.appendChild(opt);
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('themeToggle');
   
@@ -107,6 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const countryFilter = document.getElementById('countryFilter');
   const deviceFilter = document.getElementById('deviceFilter');
   const payoutFilter = document.getElementById('payoutFilter');
+  const tagsFilter = document.getElementById('tagsFilter');
   if (countryFilter) {
     countryFilter.addEventListener('change', renderCards);
   }
@@ -115,6 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   if (payoutFilter) {
     payoutFilter.addEventListener('change', renderCards);
+  }
+  if (tagsFilter) {
+    tagsFilter.addEventListener('change', renderCards);
   }
 
   // Fetch and render survey data
@@ -129,6 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
       surveyData = data;
       populateCountryDropdown();   // ← fill <select> with all countries
       populatePayoutDropdown();    // ← fill <select> with all payout methods
+      populateTagsDropdown();      // ← fill <select> with all tags
       renderCards();               // ← initial render
     })
     .catch(error => {
@@ -196,6 +224,8 @@ function renderCards() {
   const selectedDevice = deviceSelect ? deviceSelect.value : '';
   const payoutSelect = document.getElementById('payoutFilter');
   const selectedPayout = payoutSelect ? payoutSelect.value : '';
+  const tagsSelect = document.getElementById('tagsFilter');
+  const selectedTag = tagsSelect ? tagsSelect.value : '';
   const cardContainer = document.getElementById('cardContainer');
   
   if (!cardContainer) return;
@@ -238,7 +268,13 @@ function renderCards() {
                       );
     }
 
-    return matchesName && matchesCountry && matchesDevice && matchesPayout;
+    let matchesTag = true;
+    if (selectedTag) {
+      matchesTag = Array.isArray(item.Tags) &&
+                     item.Tags.includes(selectedTag);
+    }
+
+    return matchesName && matchesCountry && matchesDevice && matchesPayout && matchesTag;
   });
 
   if (filteredData.length === 0) {

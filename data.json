@@ -37,7 +37,11 @@
     },
     "Additional Notes": "Focuses on market research surveys, product testing, online focus groups, and diary studies.",
     "Review": "1",
-    "Countries": []
+    "Countries": [],
+    "Tags": [
+      "Product Testing",
+      "Market Research"
+    ]
   },
   {
     "Website Name": "appKarma",
@@ -77,7 +81,11 @@
     },
     "Additional Notes": "Earn by playing mobile games, completing offers, and answering surveys",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": [
+      "Mobile Games",
+      "App Offers"
+    ]
   },
   {
     "Website Name": "AttaPoll",
@@ -116,7 +124,10 @@
     },
     "Additional Notes": "Focuses on market research",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": [
+      "Market Research"
+    ]
   },
   {
     "Website Name": "Banana Bucks",
@@ -157,7 +168,8 @@
     },
     "Additional Notes": "Focuses on general consumer feedback, lifestyle surveys, and market research.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "BrandBee",
@@ -197,7 +209,11 @@
     },
     "Additional Notes": "Sharing device usage data, shopping online, market research and day-to-day life",
     "Review": "https://vocal.media/01/brand-bee-review-passive-income-and-target-surveys-app",
-    "Countries": []
+    "Countries": [],
+    "Tags": [
+      "Passive",
+      "Targeted"
+    ]
   },
   {
     "Website Name": "Branded Surveys",
@@ -244,7 +260,8 @@
       "United States",
       "United Kingdom",
       "Canada"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Bzzagent",
@@ -291,7 +308,8 @@
       "Italy",
       "Brazil",
       "India"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "CashKarma",
@@ -334,7 +352,8 @@
     },
     "Additional Notes": "Earn by completing surveys and checking in daily; users can unlock higher reward tiers.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Crowdtap",
@@ -375,7 +394,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Drumo",
@@ -420,7 +440,8 @@
     },
     "Additional Notes": "Offerwalls, Cashbacks, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Earnably",
@@ -459,7 +480,8 @@
     },
     "Additional Notes": "Earn by completing surveys, watching videos, and downloading apps.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Ebuno",
@@ -501,7 +523,8 @@
     },
     "Additional Notes": "Offers cashbacks, Points-based system with tiered membership benefits.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "eRewards",
@@ -547,7 +570,8 @@
       "France",
       "Germany",
       "Spain"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Eureka",
@@ -590,7 +614,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "FeaturePoints",
@@ -630,7 +655,8 @@
     },
     "Additional Notes": "Games, and app trials; users earn cashback for shopping through the app.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Five Surveys",
@@ -671,7 +697,8 @@
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Focus Group",
@@ -713,7 +740,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Freecash",
@@ -758,7 +786,8 @@
     },
     "Additional Notes": "Game offers, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "FusionCash",
@@ -802,7 +831,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Gift Hunter Club",
@@ -868,14 +898,15 @@
       "Singapore",
       "Thailand",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Google Opinion Rewards",
     "Trustpilot Ratings": "Not listed",
     "App Store Ratings": "4.7",
     "Google Play Ratings": "4.6",
-    "Website URL": "https://surveys.google.com/google-opinion-rewards/",
+    "Website URL": "https://googleopinionrewardsrefer.page.link/RX6Mi6Z5YtwtnPSW8",
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
@@ -935,6 +966,10 @@
       "Thailand",
       "Romania",
       "Indonesia"
+    ],
+    "Tags": [
+      "Passive",
+      "Targeted"
     ]
   },
   {
@@ -977,7 +1012,8 @@
     },
     "Additional Notes": "Offerwalls, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Happy Surveys",
@@ -1018,7 +1054,8 @@
     },
     "Additional Notes": "Offerwalls, Focuses on general consumer feedback, lifestyle, and market research.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Harris Poll Online",
@@ -1062,7 +1099,8 @@
       "United States",
       "Canada",
       "United Kingdom"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "HeyCash",
@@ -1105,7 +1143,8 @@
     },
     "Additional Notes": "Game offers, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "HeyPiggy",
@@ -1146,7 +1185,8 @@
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "InboxDollars",
@@ -1188,7 +1228,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "InboxPays",
@@ -1229,7 +1270,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "InboxPounds",
@@ -1270,7 +1312,8 @@
     "Review": "",
     "Countries": [
       "United Kingdom"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Ipsos i-Say",
@@ -1357,7 +1400,8 @@
       "United Kingdom",
       "United States",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "LifePoints",
@@ -1446,7 +1490,8 @@
       "United Kingdom",
       "United States",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "LootUp",
@@ -1555,7 +1600,8 @@
       "Venezuela",
       "Australia",
       "New Zealand"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Lyssna",
@@ -1595,7 +1641,8 @@
     },
     "Additional Notes": "Focuses on market research and product to user testing",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Lyssna",
@@ -1635,7 +1682,8 @@
     },
     "Additional Notes": "Focuses on market research and product to user testing",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Milieu Surveys",
@@ -1684,7 +1732,8 @@
       "Thailand",
       "Vietnam",
       "Philippines"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "MobileXpression",
@@ -1770,7 +1819,8 @@
       "Philippines",
       "Indonesia",
       "New Zealand"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Mobrog",
@@ -1868,7 +1918,8 @@
       "United States",
       "Venezuela",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "MyPoints",
@@ -1909,7 +1960,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "MySoapBox",
@@ -1947,7 +1999,8 @@
     },
     "Additional Notes": "Offers surveys, product-testing and focus groups",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "MyView",
@@ -1986,7 +2039,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "National Consumer Panel",
@@ -2030,7 +2084,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Nicequest",
@@ -2111,7 +2166,8 @@
       "Turkey",
       "Saudi Arabia",
       "United Arab Emirates"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Nielsen",
@@ -2264,7 +2320,8 @@
       "Qatar",
       "Saudi Arabia",
       "United Arab Emirates"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Nortstatpanel",
@@ -2322,7 +2379,8 @@
       "Austria",
       "Italy",
       "Belgium"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Opinion Bureau",
@@ -2370,7 +2428,8 @@
       "South Africa",
       "Singapore",
       "United Arab Emirates"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Opinion Edge",
@@ -2475,7 +2534,8 @@
       "Taiwan",
       "Thailand",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Opinion Outpost",
@@ -2522,7 +2582,8 @@
       "Italy",
       "Spain",
       "Australia"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Opinion World",
@@ -2608,7 +2669,8 @@
       "Egypt",
       "Saudi Arabia",
       "United Arab Emirates"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "OpinionPioneer",
@@ -2647,7 +2709,8 @@
     },
     "Additional Notes": "Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "PaidViewPoint",
@@ -2690,7 +2753,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Panda Research",
@@ -2729,7 +2793,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Panel Champ",
@@ -2790,7 +2855,8 @@
       "Indonesia",
       "Australia",
       "New Zealand"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Pawns.app",
@@ -2831,7 +2897,10 @@
     },
     "Additional Notes": "Bandwidth Sharing, Game offers, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": [
+      "Passive"
+    ]
   },
   {
     "Website Name": "PineCone Research",
@@ -2878,7 +2947,8 @@
       "United Kingdom",
       "Germany",
       "France"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "PointClub",
@@ -2920,7 +2990,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Points2Shop",
@@ -2957,7 +3028,8 @@
     },
     "Additional Notes": "Focuses on market research",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Poll Pay",
@@ -2999,7 +3071,8 @@
     },
     "Additional Notes": "Focused on market research, consumer goods, technology trends, and entertainment",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Prime Opinion",
@@ -3101,7 +3174,8 @@
       "Hong Kong",
       "Japan",
       "South Korea"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "PrizeRebel",
@@ -3142,7 +3216,8 @@
     },
     "Additional Notes": "Offerwalls, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Product Report Card",
@@ -3184,7 +3259,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Prolific",
@@ -3261,7 +3337,8 @@
       "Switzerland",
       "United Kingdom",
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Qmee",
@@ -3310,7 +3387,8 @@
       "Australia",
       "France",
       "Germany"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "QuickThoughts",
@@ -3363,7 +3441,8 @@
       "Brazil",
       "Japan",
       "South Korea"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "RedMonkey",
@@ -3401,7 +3480,8 @@
     },
     "Additional Notes": "Focused on opinion sharing; offers high survey frequency with decent pay",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Respondent",
@@ -3440,7 +3520,8 @@
     },
     "Additional Notes": "Product tests, Focus groups, and Usability studies",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Reward XP",
@@ -3481,7 +3562,8 @@
     },
     "Additional Notes": "Offerwalls, Videos, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Rewards1",
@@ -3519,7 +3601,8 @@
     },
     "Additional Notes": "Offers, and watching videos",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "SayMore",
@@ -3566,7 +3649,8 @@
       "Australia",
       "India",
       "South Africa"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Shopper's Voice",
@@ -3606,7 +3690,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "SpiderMetrix",
@@ -3646,7 +3731,8 @@
     },
     "Additional Notes": "Focuses on market research",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Superpay.me",
@@ -3686,7 +3772,8 @@
     },
     "Additional Notes": "Offers instant payment options; includes tasks like surveys, videos, and contests.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Surveoo",
@@ -3763,7 +3850,8 @@
       "Singapore",
       "Malaysia",
       "Philippines"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Survey Club",
@@ -3801,7 +3889,8 @@
     },
     "Additional Notes": "Focus groups, clinical trials, in-home usage tests; Aggregates survey opportunities from multiple sources",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Survey Junkie",
@@ -3843,7 +3932,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Survey Pop",
@@ -3885,7 +3975,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Survey Savvy",
@@ -3927,7 +4018,8 @@
     },
     "Additional Notes": "Focuses on market research",
     "Review": "https://vocal.media/lifehack/survey-savvy-review-is-it-worth-your-time-or-just-a-waste",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Survey Spin",
@@ -3965,7 +4057,8 @@
     },
     "Additional Notes": "Focuses on consumer behavior, market research, and product feedback surveys.",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Surveyeah",
@@ -4080,7 +4173,8 @@
       "Uruguay",
       "Venezuela",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "SurveyLama",
@@ -4179,7 +4273,8 @@
       "Nigeria",
       "Kenya",
       "Ghana"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "SurveyMagic",
@@ -4219,7 +4314,8 @@
     },
     "Additional Notes": "Focuses consumer habits, product feedback, entertainment preferences, and lifestyle trends",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Surveys on the Go",
@@ -4263,7 +4359,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Surveys2Cash",
@@ -4303,7 +4400,8 @@
     "Review": "",
     "Countries": [
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Surveytime",
@@ -4346,7 +4444,8 @@
     },
     "Additional Notes": "Focuses on market research",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Survimo",
@@ -4385,7 +4484,8 @@
     },
     "Additional Notes": "Focuses on market research",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Swagbucks",
@@ -4428,7 +4528,10 @@
     },
     "Additional Notes": "Offerwalls, Cashback, Videos, Focuses on market research and day-to-day life",
     "Review": "https://vocal.media/lifehack/the-ultimate-guide-to-making-money-with-swagbucks",
-    "Countries": []
+    "Countries": [],
+    "Tags": [
+      "Passive"
+    ]
   },
   {
     "Website Name": "Talk Online Panel",
@@ -4487,7 +4590,8 @@
       "Switzerland",
       "Turkey",
       "United Kingdom"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "TaskBucks",
@@ -4531,7 +4635,8 @@
     "Review": "",
     "Countries": [
       "India"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Tellwut",
@@ -4573,7 +4678,8 @@
     "Countries": [
       "United States",
       "Canada"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "TGM Panel",
@@ -4695,7 +4801,8 @@
       "United States",
       "Uruguay",
       "Venezuela"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "The Opinion Panel",
@@ -4734,7 +4841,8 @@
     "Review": "",
     "Countries": [
       "United Kingdom"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "The Panel Station",
@@ -4805,7 +4913,8 @@
       "Bangladesh",
       "Sri Lanka",
       "Nepal"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Timebucks",
@@ -4845,7 +4954,8 @@
     },
     "Additional Notes": "Offerwalls, Videos, Focuses on market research and day-to-day life",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Toluna Influencers",
@@ -4938,7 +5048,8 @@
       "United Kingdom",
       "United States",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Triaba",
@@ -5031,7 +5142,8 @@
       "Vietnam",
       "Zambia",
       "Zimbabwe"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Unlock Surveys",
@@ -5078,7 +5190,8 @@
       "New Zealand",
       "South Africa",
       "Ireland"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "User Interviews",
@@ -5118,7 +5231,8 @@
     },
     "Additional Notes": "Product tests, Focus groups, and Usability studies",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "Valued Opinions",
@@ -5172,7 +5286,8 @@
       "Switzerland",
       "United Kingdom",
       "United States"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "Viewfruit",
@@ -5258,7 +5373,8 @@
       "United Kingdom",
       "United States",
       "Vietnam"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "YouGov",
@@ -5328,7 +5444,8 @@
       "Poland",
       "Romania",
       "South Africa"
-    ]
+    ],
+    "Tags": []
   },
   {
     "Website Name": "ySense",
@@ -5369,7 +5486,8 @@
     },
     "Additional Notes": "Watching videos, playing games, and referrals; offers bonuses for consistent activity",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   },
   {
     "Website Name": "ZoomBucks",
@@ -5409,6 +5527,7 @@
     },
     "Additional Notes": "Watching videos and completing offers",
     "Review": "",
-    "Countries": []
+    "Countries": [],
+    "Tags": []
   }
 ]
