@@ -173,10 +173,9 @@
   },
   {
     "Website Name": "BrandBee",
-    "Priority": 1,
-    "Trustpilot Ratings": "5",
+    "Trustpilot Ratings": "2.5",
     "App Store Ratings": "5",
-    "Google Play Ratings": "4",
+    "Google Play Ratings": "4.3",
     "Website URL": "https://api.brandbee.io/marketplaceLink?content=25c5089f-bf05-42c4-96f3-d18290fc63b2&platform=ANDROID&source=invite_friend",
     "Registration Requirements": {
       "Age": 18,
@@ -210,10 +209,7 @@
     "Additional Notes": "Sharing device usage data, shopping online, market research and day-to-day life",
     "Review": "https://vocal.media/01/brand-bee-review-passive-income-and-target-surveys-app",
     "Countries": [],
-    "Tags": [
-      "Passive",
-      "Targeted"
-    ]
+    "Tags": []
   },
   {
     "Website Name": "Branded Surveys",
@@ -906,7 +902,7 @@
     "Trustpilot Ratings": "Not listed",
     "App Store Ratings": "4.7",
     "Google Play Ratings": "4.6",
-    "Website URL": "https://googleopinionrewardsrefer.page.link/RX6Mi6Z5YtwtnPSW8",
+    "Website URL": "https://surveys.google.com/google-opinion-rewards/",
     "Registration Requirements": {
       "Age": 18,
       "Region": "Widely Accessible",
@@ -967,10 +963,7 @@
       "Romania",
       "Indonesia"
     ],
-    "Tags": [
-      "Passive",
-      "Targeted"
-    ]
+    "Tags": []
   },
   {
     "Website Name": "GrabPoints",
@@ -2860,6 +2853,7 @@
   },
   {
     "Website Name": "Pawns.app",
+    "Priority": 3,
     "Trustpilot Ratings": "4.4",
     "App Store Ratings": "4.4",
     "Google Play Ratings": "4.6",
@@ -2898,9 +2892,7 @@
     "Additional Notes": "Bandwidth Sharing, Game offers, Focuses on market research and day-to-day life",
     "Review": "",
     "Countries": [],
-    "Tags": [
-      "Passive"
-    ]
+    "Tags": []
   },
   {
     "Website Name": "PineCone Research",
@@ -3980,10 +3972,10 @@
   },
   {
     "Website Name": "Survey Savvy",
-    "Priority": 3,
-    "Trustpilot Ratings": "3",
-    "App Store Ratings": "2.6",
-    "Google Play Ratings": "3.1",
+    "Priority": 1,
+    "Trustpilot Ratings": "4",
+    "App Store Ratings": "4.6",
+    "Google Play Ratings": "4.1",
     "Website URL": "https://www.surveysavvy.com/?m=7624881",
     "Registration Requirements": {
       "Age": 13,
@@ -4529,9 +4521,7 @@
     "Additional Notes": "Offerwalls, Cashback, Videos, Focuses on market research and day-to-day life",
     "Review": "https://vocal.media/lifehack/the-ultimate-guide-to-making-money-with-swagbucks",
     "Countries": [],
-    "Tags": [
-      "Passive"
-    ]
+    "Tags": []
   },
   {
     "Website Name": "Talk Online Panel",

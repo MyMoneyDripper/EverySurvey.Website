@@ -93,6 +93,22 @@ body {
   font-size: 0.9rem;
 }
 
+/* Dropdown styling improvements */
+select {
+  background-image: none !important;
+}
+
+select option {
+  padding: 8px 12px;
+  background-color: white;
+  color: #374151;
+}
+
+.dark select option {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -226,11 +242,12 @@ body {
 
   .card-front {
     margin-top: 40px !important;
-    min-height: 400px !important; /* Adjusted min-height */
+    min-height: 450px !important;
     padding-bottom: 1rem !important; 
     display: flex !important; 
     flex-direction: column !important; 
-    box-shadow: none !important; /* Remove shadow for card front */
+    box-shadow: none !important;
+    overflow: visible !important;
   }
 
   .card-back {
@@ -244,15 +261,15 @@ body {
   }
 
   .card.card-container {
-    height: auto; /* Let content (front or back) determine height */
-    min-height: 520px !important; /* Reinstated and matched to card-front */
+    height: auto;
+    min-height: 520px !important;
     width: 100%;
     max-width: calc(100vw - 32px);
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    background-color: #111827f2 !important;
-    box-shadow: none !important; /* Remove shadow for the main card container */
+    box-shadow: none !important;
+    overflow: visible !important;
   }
 
   .card-front .site-header h2 {
@@ -262,20 +279,26 @@ body {
     display: block !important;
     text-align: left !important;
     flex-grow: 1 !important;
-    margin-right: 0.5rem !important; /* Space before ratings */
+    margin-right: 0.5rem !important;
+    font-size: 1.1rem !important;
+    line-height: 1.3 !important;
   }
 
   .card-front .site-header .ratings {
     display: flex !important;
-    flex-direction: row !important; /* HORIZONTAL STACKING */
-    align-items: center !important; /* Align items vertically in the row */
-    justify-content: flex-end !important; /* Align to the right */
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
     flex-shrink: 0 !important;
+    min-width: fit-content !important;
+    overflow: visible !important;
   }
   .card-front .site-header .ratings > div {
-    margin-left: 0.5rem !important; /* Add left margin for horizontal spacing */
+    margin-left: 0.4rem !important;
     display: flex !important;
     align-items: center !important;
+    white-space: nowrap !important;
+    font-size: 0.85rem !important;
   }
   .card-front .site-header .ratings > div:first-child {
     margin-left: 0 !important; /* No left margin for the first rating icon */
@@ -295,12 +318,14 @@ body {
     flex-shrink: 0; /* Prevent shrinking */
   }
   .card-front .payment-info > div { 
-    min-height: 44px !important; /* Ensure decent tap height */
-    padding: 0.5rem !important;
+    min-height: 60px !important;
+    padding: 0.75rem !important;
     display: flex !important; 
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+    overflow: visible !important;
+    word-wrap: break-word !important;
   }
 
   .card-front .action-buttons {
@@ -317,8 +342,11 @@ body {
     margin-left: 0 !important;
     margin-right: 0 !important;
     box-sizing: border-box !important;
-    padding: 0.75rem 1rem !important; 
-    min-height: 44px !important; 
+    padding: 0.875rem 1rem !important; 
+    min-height: 48px !important;
+    font-size: 0.9rem !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
   }
 
   .payment-method, .feature {

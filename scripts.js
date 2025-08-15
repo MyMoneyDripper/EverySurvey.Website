@@ -241,8 +241,11 @@ function renderCards() {
 
     let matchesCountry = true;
     if (selectedCountry) {
-      matchesCountry = Array.isArray(item.Countries) &&
-                     item.Countries.includes(selectedCountry);
+      // If Countries array is empty, treat as worldwide (available for all countries)
+      // If Countries array has entries, check if selected country is included
+      matchesCountry = !Array.isArray(item.Countries) || 
+                      item.Countries.length === 0 || 
+                      item.Countries.includes(selectedCountry);
     }
 
     // Device filter
@@ -338,9 +341,9 @@ function renderCards() {
     cardFront.innerHTML = `
       <!-- Top section with name and ratings -->
       <div class="site-header bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-900 border-b border-gray-200 dark:border-slate-700 rounded-t-lg p-3 mb-3">
-        <div class="flex justify-between items-center">
-          <h2 class="text-xl font-bold text-gray-800 dark:text-white">${item['Website Name']}</h2>
-          <div class="ratings flex space-x-4">
+        <div class="flex justify-between items-start gap-2">
+          <h2 class="text-lg font-bold text-gray-800 dark:text-white flex-1 leading-tight">${item['Website Name']}</h2>
+          <div class="ratings flex space-x-3 flex-shrink-0">
             <div class="flex items-center" title="Trustpilot rating">
               <i class="fas fa-star text-green-500 mr-1"></i>
               <span class="font-semibold text-gray-800 dark:text-white">${item['Trustpilot Ratings'] !== 'Not listed' ? item['Trustpilot Ratings'] : '-'}</span>
@@ -387,7 +390,7 @@ function renderCards() {
         
         ${item['Review'] && item['Review'] !== 'null' ? 
           `<a href="${item['Review']}" class="review-btn bg-gradient-to-r from-brand-orange to-yellow-500 text-white hover:from-brand-orange hover:to-yellow-600 py-2 rounded-lg text-center font-bold transition-colors shadow-md">
-            <i class="fas fa-star-half-alt mr-1"></i> REVIEW
+            <i class="fas fa-compass mr-1"></i> GUIDE
           </a>` : 
           ''}
       </div>
