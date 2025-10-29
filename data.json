@@ -5537,7 +5537,7 @@
     },
     "Payment Methods": [
       "PayPal",
-      "Gift Cards"
+      "Gift Cards",
       "Bank Transfer"
     ],
     "Minimum Payout": {
