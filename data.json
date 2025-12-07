@@ -89,7 +89,7 @@
   },
   {
     "Website Name": "AttaPoll",
-    "Priority": 5,
+    "Priority": 1,
     "Trustpilot Ratings": "3.8",
     "App Store Ratings": "4.5",
     "Google Play Ratings": "4.3",
@@ -3974,7 +3974,7 @@
   },
   {
     "Website Name": "Survey Savvy",
-    "Priority": 1,
+    "Priority": 5,
     "Trustpilot Ratings": "4",
     "App Store Ratings": "4.6",
     "Google Play Ratings": "4.1",
@@ -3993,7 +3993,7 @@
       "Other": "$1"
     },
     "Average Pay Per Survey": {
-      "Min": "$0.5",
+      "Min": "$0.50",
       "Max": "$2"
     },
     "Survey Frequency": "Weekly",
